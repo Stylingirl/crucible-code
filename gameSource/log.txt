@@ -1,718 +1,2302 @@
-L4 | Sun May  5 22:19:14 2019 (116 ms) | general | exiting: calling SDL_CloseAudio
+L4 | Wed May  8 17:35:08 2019 (664 ms) | general | exiting: calling SDL_CloseAudio
 
-L4 | Sun May  5 22:19:14 2019 (384 ms) | general | exiting: Deleting sceneHandler
+L4 | Wed May  8 17:35:08 2019 (932 ms) | general | exiting: Deleting sceneHandler
 
-L4 | Sun May  5 22:19:14 2019 (395 ms) | general | Freeing sound sprites
+L4 | Wed May  8 17:35:08 2019 (932 ms) | general | Freeing sound sprites
 
-L4 | Sun May  5 22:19:14 2019 (396 ms) | general | exiting: freeing frameDrawer
+L4 | Wed May  8 17:35:08 2019 (933 ms) | general | exiting: freeing frameDrawer
 
-L4 | Sun May  5 22:19:14 2019 (521 ms) | general | exiting: Deleting screen
+L4 | Wed May  8 17:35:08 2019 (998 ms) | general | exiting: Deleting screen
 
-L4 | Sun May  5 22:19:14 2019 (521 ms) | general | exiting: freeing drawString
+L4 | Wed May  8 17:35:08 2019 (998 ms) | general | exiting: freeing drawString
 
-L4 | Sun May  5 22:19:14 2019 (522 ms) | general | exiting: calling SDL_Quit()
+L4 | Wed May  8 17:35:08 2019 (998 ms) | general | exiting: calling SDL_Quit()
 
-L4 | Sun May  5 22:19:15 2019 (347 ms) | general | exiting: Done.
+L4 | Wed May  8 17:35:09 2019 (491 ms) | general | exiting: Done.
 
-L4 | Mon May  6 00:08:04 2019 (800 ms) | general | New game starting up
-L4 | Mon May  6 00:08:04 2019 (800 ms) | general | Target game image size:  1024x600
+L4 | Wed May  8 17:38:49 2019 (778 ms) | general | New game starting up
+L4 | Wed May  8 17:38:49 2019 (778 ms) | general | Target game image size:  1024x600
 
-L4 | Mon May  6 00:08:04 2019 (800 ms) | general | Ideal window dimensions:  1280x720
+L4 | Wed May  8 17:38:49 2019 (787 ms) | general | Ideal window dimensions:  1280x720
 
-L4 | Mon May  6 00:08:04 2019 (800 ms) | general | Trying to start in fullscreen mode.
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | The following frame rates are considered possible:
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | 30 fps
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | 60 fps
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | 100 fps
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | 120 fps
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | 144 fps
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | Sticking with user's current screen resolution
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general | Available video modes:
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    2560 x 1600
+L4 | Wed May  8 17:38:49 2019 (787 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:38:49 2019 (788 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:38:49 2019 (788 ms) | general | 30 fps
+L4 | Wed May  8 17:38:49 2019 (788 ms) | general | 60 fps
+L4 | Wed May  8 17:38:49 2019 (788 ms) | general | 100 fps
+L4 | Wed May  8 17:38:49 2019 (788 ms) | general | 120 fps
+L4 | Wed May  8 17:38:49 2019 (788 ms) | general | 144 fps
+L4 | Wed May  8 17:38:49 2019 (791 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:38:49 2019 (791 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:38:49 2019 (791 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:38:49 2019 (791 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:38:49 2019 (792 ms) | general | Available video modes:
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    2560 x 1600
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    2048 x 1152
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    2048 x 1152
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1920 x 1440
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1920 x 1440
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1920 x 1200
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1920 x 1200
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1920 x 1080
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1920 x 1080
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1920 x 962
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1920 x 962
 
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Mon May  6 00:08:04 2019 (801 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1856 x 1392
+L4 | Wed May  8 17:38:49 2019 (792 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:38:49 2019 (792 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1856 x 1392
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1792 x 1344
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1792 x 1344
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1680 x 1050
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1680 x 1050
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1600 x 1200
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1600 x 1200
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1600 x 900
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1600 x 900
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1440 x 900
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1440 x 900
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1400 x 1050
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1400 x 1050
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1366 x 768
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1366 x 768
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1360 x 768
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1360 x 768
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1280 x 1024
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1280 x 1024
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1280 x 960
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1280 x 960
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1280 x 800
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1280 x 800
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1280 x 768
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1280 x 768
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1280 x 720
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1280 x 720
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    1024 x 768
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    1024 x 768
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    848 x 480
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    848 x 480
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    800 x 600
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    800 x 600
 
-L5 | Mon May  6 00:08:04 2019 (801 ms) | general |    640 x 480
+L5 | Wed May  8 17:38:49 2019 (792 ms) | general |    640 x 480
 
-L4 | Mon May  6 00:08:05 2019 (651 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L4 | Wed May  8 17:38:50 2019 (721 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
-L4 | Mon May  6 00:08:06 2019 (171 ms) | general | Recording game into file recordedGames/recordedGame000022.txt
-L4 | Mon May  6 00:08:06 2019 (171 ms) | general | Only keeping 20 past recordings
-L4 | Mon May  6 00:08:06 2019 (171 ms) | general | Removed 1 stale recordings
-L4 | Mon May  6 09:47:35 2019 (523 ms) | general | New game starting up
-L4 | Mon May  6 09:47:35 2019 (529 ms) | general | Target game image size:  1024x600
+L4 | Wed May  8 17:38:51 2019 (355 ms) | general | Recording game into file recordedGames/recordedGame000064.txt
+L4 | Wed May  8 17:38:51 2019 (356 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:38:51 2019 (356 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:40:23 2019 (916 ms) | general | exiting...
 
-L4 | Mon May  6 09:47:35 2019 (549 ms) | general | Ideal window dimensions:  1280x720
+L4 | Wed May  8 17:40:23 2019 (916 ms) | general | exiting: calling SDL_CloseAudio
 
-L4 | Mon May  6 09:47:35 2019 (559 ms) | general | Trying to start in fullscreen mode.
-L4 | Mon May  6 09:47:35 2019 (562 ms) | general | The following frame rates are considered possible:
-L4 | Mon May  6 09:47:35 2019 (563 ms) | general | 30 fps
-L4 | Mon May  6 09:47:35 2019 (563 ms) | general | 60 fps
-L4 | Mon May  6 09:47:35 2019 (563 ms) | general | 100 fps
-L4 | Mon May  6 09:47:35 2019 (563 ms) | general | 120 fps
-L4 | Mon May  6 09:47:35 2019 (563 ms) | general | 144 fps
-L4 | Mon May  6 09:47:35 2019 (608 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Mon May  6 09:47:35 2019 (608 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Mon May  6 09:47:35 2019 (608 ms) | general | Sticking with user's current screen resolution
-L4 | Mon May  6 09:47:35 2019 (608 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Mon May  6 09:47:35 2019 (608 ms) | general | Available video modes:
-L5 | Mon May  6 09:47:35 2019 (608 ms) | general |    2560 x 1600
+L4 | Wed May  8 17:40:24 2019 (139 ms) | general | exiting: Deleting sceneHandler
 
-L5 | Mon May  6 09:47:35 2019 (608 ms) | general |    2048 x 1152
+L4 | Wed May  8 17:40:24 2019 (139 ms) | general | Freeing sound sprites
 
-L5 | Mon May  6 09:47:35 2019 (608 ms) | general |    1920 x 1440
+L4 | Wed May  8 17:40:24 2019 (141 ms) | general | exiting: freeing frameDrawer
 
-L5 | Mon May  6 09:47:35 2019 (608 ms) | general |    1920 x 1200
+L4 | Wed May  8 17:40:24 2019 (195 ms) | general | exiting: Deleting screen
 
-L5 | Mon May  6 09:47:35 2019 (608 ms) | general |    1920 x 1080
+L4 | Wed May  8 17:40:24 2019 (195 ms) | general | exiting: freeing drawString
 
-L5 | Mon May  6 09:47:35 2019 (608 ms) | general |    1920 x 962
+L4 | Wed May  8 17:40:24 2019 (195 ms) | general | exiting: calling SDL_Quit()
 
-L4 | Mon May  6 09:47:35 2019 (608 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Mon May  6 09:47:35 2019 (608 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Mon May  6 09:47:35 2019 (608 ms) | general |    1856 x 1392
+L4 | Wed May  8 17:40:24 2019 (247 ms) | general | exiting: Done.
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1792 x 1344
+L4 | Wed May  8 17:44:12 2019 (853 ms) | general | New game starting up
+L4 | Wed May  8 17:44:12 2019 (853 ms) | general | Target game image size:  1280x720
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1680 x 1050
+L4 | Wed May  8 17:44:12 2019 (861 ms) | general | Ideal window dimensions:  1280x720
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1600 x 1200
+L4 | Wed May  8 17:44:12 2019 (861 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:44:12 2019 (862 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:44:12 2019 (862 ms) | general | 30 fps
+L4 | Wed May  8 17:44:12 2019 (862 ms) | general | 60 fps
+L4 | Wed May  8 17:44:12 2019 (862 ms) | general | 100 fps
+L4 | Wed May  8 17:44:12 2019 (862 ms) | general | 120 fps
+L4 | Wed May  8 17:44:12 2019 (862 ms) | general | 144 fps
+L4 | Wed May  8 17:44:12 2019 (866 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:44:12 2019 (866 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:44:12 2019 (866 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:44:12 2019 (866 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:44:12 2019 (866 ms) | general | Available video modes:
+L5 | Wed May  8 17:44:12 2019 (866 ms) | general |    2560 x 1600
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1600 x 900
+L5 | Wed May  8 17:44:12 2019 (866 ms) | general |    2048 x 1152
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1440 x 900
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1920 x 1440
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1400 x 1050
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1920 x 1200
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1366 x 768
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1920 x 1080
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1360 x 768
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1920 x 962
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1280 x 1024
+L4 | Wed May  8 17:44:12 2019 (867 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:44:12 2019 (867 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1856 x 1392
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1280 x 960
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1792 x 1344
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1280 x 800
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1680 x 1050
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1280 x 768
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1600 x 1200
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1280 x 720
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1600 x 900
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    1024 x 768
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1440 x 900
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    848 x 480
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1400 x 1050
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    800 x 600
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1366 x 768
 
-L5 | Mon May  6 09:47:35 2019 (609 ms) | general |    640 x 480
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1360 x 768
 
-L4 | Mon May  6 09:47:37 2019 (92 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1280 x 1024
 
-L4 | Mon May  6 09:47:37 2019 (674 ms) | general | Recording game into file recordedGames/recordedGame000023.txt
-L4 | Mon May  6 09:47:37 2019 (680 ms) | general | Only keeping 20 past recordings
-L4 | Mon May  6 09:47:37 2019 (690 ms) | general | Removed 1 stale recordings
-L4 | Mon May  6 09:55:20 2019 (519 ms) | general | exiting...
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1280 x 960
 
-L4 | Mon May  6 09:55:20 2019 (525 ms) | general | exiting: calling SDL_CloseAudio
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1280 x 800
 
-L4 | Mon May  6 09:55:20 2019 (761 ms) | general | exiting: Deleting sceneHandler
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1280 x 768
 
-L4 | Mon May  6 09:55:20 2019 (762 ms) | general | Freeing sound sprites
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1280 x 720
 
-L4 | Mon May  6 09:55:20 2019 (763 ms) | general | exiting: freeing frameDrawer
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    1024 x 768
 
-L4 | Mon May  6 09:55:20 2019 (829 ms) | general | exiting: Deleting screen
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    848 x 480
 
-L4 | Mon May  6 09:55:20 2019 (829 ms) | general | exiting: freeing drawString
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    800 x 600
 
-L4 | Mon May  6 09:55:20 2019 (830 ms) | general | exiting: calling SDL_Quit()
+L5 | Wed May  8 17:44:12 2019 (867 ms) | general |    640 x 480
 
-L4 | Mon May  6 09:55:20 2019 (955 ms) | general | exiting: Done.
+L4 | Wed May  8 17:44:13 2019 (180 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
-L4 | Mon May  6 09:59:28 2019 (735 ms) | general | New game starting up
-L4 | Mon May  6 09:59:28 2019 (735 ms) | general | Target game image size:  1024x600
+L4 | Wed May  8 17:44:13 2019 (813 ms) | general | Recording game into file recordedGames/recordedGame000065.txt
+L4 | Wed May  8 17:44:13 2019 (818 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:44:13 2019 (828 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:44:14 2019 (18 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 17:44:14 2019 (870 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 17:46:31 2019 (842 ms) | general | Relaunching game ./OneLifeApp
+L4 | Wed May  8 17:46:31 2019 (885 ms) | general | exiting...
 
-L4 | Mon May  6 09:59:28 2019 (754 ms) | general | Ideal window dimensions:  1280x720
+L4 | Wed May  8 17:46:31 2019 (885 ms) | general | exiting: calling SDL_CloseAudio
 
-L4 | Mon May  6 09:59:28 2019 (754 ms) | general | Trying to start in fullscreen mode.
-L4 | Mon May  6 09:59:28 2019 (756 ms) | general | The following frame rates are considered possible:
-L4 | Mon May  6 09:59:28 2019 (756 ms) | general | 30 fps
-L4 | Mon May  6 09:59:28 2019 (756 ms) | general | 60 fps
-L4 | Mon May  6 09:59:28 2019 (756 ms) | general | 100 fps
-L4 | Mon May  6 09:59:28 2019 (756 ms) | general | 120 fps
-L4 | Mon May  6 09:59:28 2019 (756 ms) | general | 144 fps
-L4 | Mon May  6 09:59:28 2019 (771 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Mon May  6 09:59:28 2019 (771 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Mon May  6 09:59:28 2019 (771 ms) | general | Sticking with user's current screen resolution
-L4 | Mon May  6 09:59:28 2019 (771 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Mon May  6 09:59:28 2019 (771 ms) | general | Available video modes:
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    2560 x 1600
+L4 | Wed May  8 17:46:31 2019 (885 ms) | general | exiting...
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    2048 x 1152
+L4 | Wed May  8 17:46:31 2019 (885 ms) | general | exiting: calling SDL_CloseAudio
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1920 x 1440
+L4 | Wed May  8 17:46:41 2019 (247 ms) | general | New game starting up
+L4 | Wed May  8 17:46:41 2019 (248 ms) | general | Target game image size:  1280x720
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1920 x 1200
+L4 | Wed May  8 17:46:41 2019 (256 ms) | general | Ideal window dimensions:  1280x720
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1920 x 1080
+L4 | Wed May  8 17:46:41 2019 (256 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:46:41 2019 (258 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:46:41 2019 (258 ms) | general | 30 fps
+L4 | Wed May  8 17:46:41 2019 (258 ms) | general | 60 fps
+L4 | Wed May  8 17:46:41 2019 (258 ms) | general | 100 fps
+L4 | Wed May  8 17:46:41 2019 (258 ms) | general | 120 fps
+L4 | Wed May  8 17:46:41 2019 (258 ms) | general | 144 fps
+L4 | Wed May  8 17:46:41 2019 (290 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:46:41 2019 (290 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:46:41 2019 (290 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:46:41 2019 (290 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:46:41 2019 (290 ms) | general | Available video modes:
+L5 | Wed May  8 17:46:41 2019 (290 ms) | general |    2560 x 1600
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1920 x 962
+L5 | Wed May  8 17:46:41 2019 (290 ms) | general |    2048 x 1152
 
-L4 | Mon May  6 09:59:28 2019 (771 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Mon May  6 09:59:28 2019 (771 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1856 x 1392
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1920 x 1440
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1792 x 1344
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1920 x 1200
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1680 x 1050
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1920 x 1080
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1600 x 1200
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1920 x 962
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1600 x 900
+L4 | Wed May  8 17:46:41 2019 (291 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:46:41 2019 (291 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1856 x 1392
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1440 x 900
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1792 x 1344
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1400 x 1050
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1680 x 1050
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1366 x 768
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1600 x 1200
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1360 x 768
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1600 x 900
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1280 x 1024
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1440 x 900
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1280 x 960
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1400 x 1050
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1280 x 800
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1366 x 768
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1280 x 768
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1360 x 768
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1280 x 720
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1280 x 1024
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    1024 x 768
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1280 x 960
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    848 x 480
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1280 x 800
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    800 x 600
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1280 x 768
 
-L5 | Mon May  6 09:59:28 2019 (771 ms) | general |    640 x 480
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1280 x 720
 
-L4 | Mon May  6 09:59:29 2019 (198 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    1024 x 768
 
-L4 | Mon May  6 09:59:29 2019 (863 ms) | general | Recording game into file recordedGames/recordedGame000024.txt
-L4 | Mon May  6 09:59:29 2019 (899 ms) | general | Only keeping 20 past recordings
-L4 | Mon May  6 09:59:29 2019 (946 ms) | general | Removed 1 stale recordings
-L4 | Mon May  6 10:19:50 2019 (355 ms) | general | exiting...
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    848 x 480
 
-L4 | Mon May  6 10:19:50 2019 (368 ms) | general | exiting: calling SDL_CloseAudio
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    800 x 600
 
-L4 | Mon May  6 10:19:50 2019 (562 ms) | general | exiting: Deleting sceneHandler
+L5 | Wed May  8 17:46:41 2019 (291 ms) | general |    640 x 480
 
-L4 | Mon May  6 10:19:50 2019 (562 ms) | general | Freeing sound sprites
+L4 | Wed May  8 17:46:42 2019 (147 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
-L4 | Mon May  6 10:19:50 2019 (563 ms) | general | exiting: freeing frameDrawer
+L4 | Wed May  8 17:46:44 2019 (206 ms) | general | Measured frame rate = 141.293516 fps
 
-L4 | Mon May  6 10:19:50 2019 (627 ms) | general | exiting: Deleting screen
+L4 | Wed May  8 17:46:44 2019 (206 ms) | general | Closest possible frame rate = 144 fps
 
-L4 | Mon May  6 10:19:50 2019 (627 ms) | general | exiting: freeing drawString
+L4 | Wed May  8 17:46:44 2019 (206 ms) | general | Vsync seems to be enforcing an allowed frame rate of 144 fps.
 
-L4 | Mon May  6 10:19:50 2019 (627 ms) | general | exiting: calling SDL_Quit()
+L4 | Wed May  8 17:46:44 2019 (290 ms) | general | Recording game into file recordedGames/recordedGame000066.txt
+L4 | Wed May  8 17:46:44 2019 (297 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:46:44 2019 (340 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:46:44 2019 (487 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 17:46:45 2019 (328 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 17:48:42 2019 (785 ms) | general | Relaunching game ./OneLifeApp
+L4 | Wed May  8 17:48:42 2019 (793 ms) | general | exiting...
 
-L4 | Mon May  6 10:19:51 2019 (496 ms) | general | exiting: Done.
+L4 | Wed May  8 17:48:42 2019 (794 ms) | general | exiting: calling SDL_CloseAudio
 
-L4 | Mon May  6 10:22:37 2019 (194 ms) | general | New game starting up
-L4 | Mon May  6 10:22:37 2019 (195 ms) | general | Target game image size:  1024x600
+L4 | Wed May  8 17:48:42 2019 (834 ms) | general | exiting...
 
-L4 | Mon May  6 10:22:37 2019 (205 ms) | general | Ideal window dimensions:  1280x720
+L4 | Wed May  8 17:48:42 2019 (834 ms) | general | exiting: calling SDL_CloseAudio
 
-L4 | Mon May  6 10:22:37 2019 (206 ms) | general | Trying to start in fullscreen mode.
-L4 | Mon May  6 10:22:37 2019 (207 ms) | general | The following frame rates are considered possible:
-L4 | Mon May  6 10:22:37 2019 (207 ms) | general | 30 fps
-L4 | Mon May  6 10:22:37 2019 (207 ms) | general | 60 fps
-L4 | Mon May  6 10:22:37 2019 (207 ms) | general | 100 fps
-L4 | Mon May  6 10:22:37 2019 (207 ms) | general | 120 fps
-L4 | Mon May  6 10:22:37 2019 (207 ms) | general | 144 fps
-L4 | Mon May  6 10:22:37 2019 (211 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Mon May  6 10:22:37 2019 (211 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Mon May  6 10:22:37 2019 (211 ms) | general | Sticking with user's current screen resolution
-L4 | Mon May  6 10:22:37 2019 (211 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Mon May  6 10:22:37 2019 (211 ms) | general | Available video modes:
-L5 | Mon May  6 10:22:37 2019 (211 ms) | general |    2560 x 1600
+L4 | Wed May  8 17:48:49 2019 (731 ms) | general | New game starting up
+L4 | Wed May  8 17:48:49 2019 (731 ms) | general | Target game image size:  1280x720
 
-L5 | Mon May  6 10:22:37 2019 (211 ms) | general |    2048 x 1152
+L4 | Wed May  8 17:48:49 2019 (739 ms) | general | Ideal window dimensions:  1280x720
 
-L5 | Mon May  6 10:22:37 2019 (211 ms) | general |    1920 x 1440
+L4 | Wed May  8 17:48:49 2019 (740 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:48:49 2019 (741 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:48:49 2019 (741 ms) | general | 30 fps
+L4 | Wed May  8 17:48:49 2019 (741 ms) | general | 60 fps
+L4 | Wed May  8 17:48:49 2019 (741 ms) | general | 100 fps
+L4 | Wed May  8 17:48:49 2019 (741 ms) | general | 120 fps
+L4 | Wed May  8 17:48:49 2019 (741 ms) | general | 144 fps
+L4 | Wed May  8 17:48:49 2019 (782 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:48:49 2019 (782 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:48:49 2019 (782 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:48:49 2019 (782 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:48:49 2019 (782 ms) | general | Available video modes:
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    2560 x 1600
 
-L5 | Mon May  6 10:22:37 2019 (211 ms) | general |    1920 x 1200
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    2048 x 1152
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1920 x 1080
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1920 x 1440
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1920 x 962
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1920 x 1200
 
-L4 | Mon May  6 10:22:37 2019 (212 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Mon May  6 10:22:37 2019 (212 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1856 x 1392
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1920 x 1080
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1792 x 1344
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1920 x 962
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1680 x 1050
+L4 | Wed May  8 17:48:49 2019 (782 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:48:49 2019 (782 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1856 x 1392
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1600 x 1200
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1792 x 1344
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1600 x 900
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1680 x 1050
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1440 x 900
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1600 x 1200
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1400 x 1050
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1600 x 900
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1366 x 768
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1440 x 900
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1360 x 768
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1400 x 1050
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1280 x 1024
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1366 x 768
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1280 x 960
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1360 x 768
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1280 x 800
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1280 x 1024
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1280 x 768
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1280 x 960
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1280 x 720
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1280 x 800
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    1024 x 768
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1280 x 768
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    848 x 480
+L5 | Wed May  8 17:48:49 2019 (782 ms) | general |    1280 x 720
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    800 x 600
+L5 | Wed May  8 17:48:49 2019 (783 ms) | general |    1024 x 768
 
-L5 | Mon May  6 10:22:37 2019 (212 ms) | general |    640 x 480
+L5 | Wed May  8 17:48:49 2019 (783 ms) | general |    848 x 480
 
-L4 | Mon May  6 10:22:38 2019 (665 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L5 | Wed May  8 17:48:49 2019 (783 ms) | general |    800 x 600
 
-L4 | Mon May  6 10:22:39 2019 (732 ms) | general | Recording game into file recordedGames/recordedGame000025.txt
-L4 | Mon May  6 10:22:39 2019 (736 ms) | general | Only keeping 20 past recordings
-L4 | Mon May  6 10:22:39 2019 (756 ms) | general | Removed 1 stale recordings
-L4 | Mon May  6 10:24:14 2019 (531 ms) | general | exiting...
+L5 | Wed May  8 17:48:49 2019 (783 ms) | general |    640 x 480
 
-L4 | Mon May  6 10:24:14 2019 (545 ms) | general | exiting: calling SDL_CloseAudio
+L4 | Wed May  8 17:48:50 2019 (197 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
-L4 | Mon May  6 10:24:14 2019 (925 ms) | general | exiting: Deleting sceneHandler
+L4 | Wed May  8 17:48:52 2019 (94 ms) | general | Measured frame rate = 132.602191 fps
 
-L4 | Mon May  6 10:24:14 2019 (938 ms) | general | Freeing sound sprites
+L4 | Wed May  8 17:48:52 2019 (95 ms) | general | Closest possible frame rate = 144 fps
 
-L4 | Mon May  6 10:24:14 2019 (940 ms) | general | exiting: freeing frameDrawer
+L4 | Wed May  8 17:48:52 2019 (95 ms) | general | Vsync seems to be enforcing an allowed frame rate of 144 fps.
 
-L4 | Mon May  6 10:24:15 2019 (80 ms) | general | exiting: Deleting screen
+L4 | Wed May  8 17:48:52 2019 (95 ms) | general | Recording game into file recordedGames/recordedGame000067.txt
+L4 | Wed May  8 17:48:52 2019 (130 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:48:52 2019 (213 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:48:52 2019 (323 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 17:48:53 2019 (123 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 17:49:10 2019 (160 ms) | general | exiting...
 
-L4 | Mon May  6 10:24:15 2019 (80 ms) | general | exiting: freeing drawString
+L4 | Wed May  8 17:49:10 2019 (160 ms) | general | exiting: calling SDL_CloseAudio
 
-L4 | Mon May  6 10:24:15 2019 (81 ms) | general | exiting: calling SDL_Quit()
+L4 | Wed May  8 17:49:10 2019 (377 ms) | general | exiting: Deleting sceneHandler
 
-L4 | Mon May  6 10:24:16 2019 (89 ms) | general | exiting: Done.
+L4 | Wed May  8 17:49:10 2019 (377 ms) | general | Freeing sound sprites
 
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | New game starting up
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Target game image size:  1024x600
+L4 | Wed May  8 17:49:10 2019 (378 ms) | general | exiting: freeing frameDrawer
 
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Ideal window dimensions:  1280x720
+L4 | Wed May  8 17:49:10 2019 (439 ms) | general | exiting: Deleting screen
 
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Trying to start in fullscreen mode.
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | The following frame rates are considered possible:
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | 30 fps
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | 60 fps
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | 100 fps
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | 120 fps
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | 144 fps
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Sticking with user's current screen resolution
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general | Available video modes:
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    2560 x 1600
+L4 | Wed May  8 17:49:10 2019 (439 ms) | general | exiting: freeing drawString
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    2048 x 1152
+L4 | Wed May  8 17:49:10 2019 (440 ms) | general | exiting: calling SDL_Quit()
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1920 x 1440
+L4 | Wed May  8 17:49:10 2019 (534 ms) | general | exiting: Done.
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1920 x 1200
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | New game starting up
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | Target game image size:  1280x720
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1920 x 1080
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | Ideal window dimensions:  1280x720
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1920 x 962
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | 30 fps
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | 60 fps
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | 100 fps
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | 120 fps
+L4 | Wed May  8 17:51:54 2019 (372 ms) | general | 144 fps
+L4 | Wed May  8 17:51:54 2019 (383 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:51:54 2019 (383 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:51:54 2019 (383 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:51:54 2019 (383 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:51:54 2019 (383 ms) | general | Available video modes:
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    2560 x 1600
 
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Tue May  7 13:36:43 2019 (436 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1856 x 1392
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    2048 x 1152
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1792 x 1344
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1920 x 1440
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1680 x 1050
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1920 x 1200
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1600 x 1200
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1920 x 1080
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1600 x 900
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1920 x 962
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1440 x 900
+L4 | Wed May  8 17:51:54 2019 (383 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:51:54 2019 (383 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1856 x 1392
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1400 x 1050
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1792 x 1344
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1366 x 768
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1680 x 1050
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1360 x 768
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1600 x 1200
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1280 x 1024
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1600 x 900
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1280 x 960
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1440 x 900
 
-L5 | Tue May  7 13:36:43 2019 (436 ms) | general |    1280 x 800
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1400 x 1050
 
-L5 | Tue May  7 13:36:43 2019 (437 ms) | general |    1280 x 768
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1366 x 768
 
-L5 | Tue May  7 13:36:43 2019 (437 ms) | general |    1280 x 720
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1360 x 768
 
-L5 | Tue May  7 13:36:43 2019 (437 ms) | general |    1024 x 768
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1280 x 1024
 
-L5 | Tue May  7 13:36:43 2019 (437 ms) | general |    848 x 480
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1280 x 960
 
-L5 | Tue May  7 13:36:43 2019 (437 ms) | general |    800 x 600
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1280 x 800
 
-L5 | Tue May  7 13:36:43 2019 (437 ms) | general |    640 x 480
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1280 x 768
 
-L4 | Tue May  7 13:36:43 2019 (706 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1280 x 720
 
-L4 | Tue May  7 13:36:44 2019 (204 ms) | general | Recording game into file recordedGames/recordedGame000045.txt
-L4 | Tue May  7 13:36:44 2019 (205 ms) | general | Only keeping 20 past recordings
-L4 | Tue May  7 13:36:44 2019 (239 ms) | general | Removed 1 stale recordings
-L4 | Tue May  7 13:41:26 2019 (721 ms) | general | New game starting up
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Target game image size:  1024x600
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    1024 x 768
 
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Ideal window dimensions:  1280x720
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    848 x 480
 
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Trying to start in fullscreen mode.
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | The following frame rates are considered possible:
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | 30 fps
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | 60 fps
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | 100 fps
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | 120 fps
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | 144 fps
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Sticking with user's current screen resolution
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general | Available video modes:
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    2560 x 1600
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    800 x 600
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    2048 x 1152
+L5 | Wed May  8 17:51:54 2019 (383 ms) | general |    640 x 480
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1920 x 1440
+L4 | Wed May  8 17:51:54 2019 (688 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1920 x 1200
+L4 | Wed May  8 17:51:55 2019 (238 ms) | general | Recording game into file recordedGames/recordedGame000068.txt
+L4 | Wed May  8 17:51:55 2019 (238 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:51:55 2019 (239 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:51:55 2019 (462 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 17:51:56 2019 (246 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 17:52:51 2019 (923 ms) | general | exiting...
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1920 x 1080
+L4 | Wed May  8 17:52:51 2019 (924 ms) | general | exiting: calling SDL_CloseAudio
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1920 x 962
+L4 | Wed May  8 17:52:52 2019 (154 ms) | general | exiting: Deleting sceneHandler
 
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Tue May  7 13:41:26 2019 (722 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1856 x 1392
+L4 | Wed May  8 17:52:52 2019 (154 ms) | general | Freeing sound sprites
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1792 x 1344
+L4 | Wed May  8 17:52:52 2019 (155 ms) | general | exiting: freeing frameDrawer
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1680 x 1050
+L4 | Wed May  8 17:52:52 2019 (208 ms) | general | exiting: Deleting screen
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1600 x 1200
+L4 | Wed May  8 17:52:52 2019 (208 ms) | general | exiting: freeing drawString
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1600 x 900
+L4 | Wed May  8 17:52:52 2019 (208 ms) | general | exiting: calling SDL_Quit()
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1440 x 900
+L4 | Wed May  8 17:52:52 2019 (346 ms) | general | exiting: Done.
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1400 x 1050
+L4 | Wed May  8 17:53:22 2019 (277 ms) | general | New game starting up
+L4 | Wed May  8 17:53:22 2019 (277 ms) | general | Target game image size:  1280x720
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1366 x 768
+L4 | Wed May  8 17:53:22 2019 (286 ms) | general | Ideal window dimensions:  1280x720
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1360 x 768
+L4 | Wed May  8 17:53:22 2019 (287 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:53:22 2019 (288 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:53:22 2019 (288 ms) | general | 30 fps
+L4 | Wed May  8 17:53:22 2019 (288 ms) | general | 60 fps
+L4 | Wed May  8 17:53:22 2019 (288 ms) | general | 100 fps
+L4 | Wed May  8 17:53:22 2019 (288 ms) | general | 120 fps
+L4 | Wed May  8 17:53:22 2019 (288 ms) | general | 144 fps
+L4 | Wed May  8 17:53:22 2019 (303 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:53:22 2019 (303 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:53:22 2019 (303 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:53:22 2019 (303 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:53:22 2019 (303 ms) | general | Available video modes:
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    2560 x 1600
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1280 x 1024
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    2048 x 1152
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1280 x 960
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1920 x 1440
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1280 x 800
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1920 x 1200
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1280 x 768
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1920 x 1080
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1280 x 720
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1920 x 962
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    1024 x 768
+L4 | Wed May  8 17:53:22 2019 (303 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:53:22 2019 (303 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1856 x 1392
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    848 x 480
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1792 x 1344
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    800 x 600
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1680 x 1050
 
-L5 | Tue May  7 13:41:26 2019 (722 ms) | general |    640 x 480
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1600 x 1200
 
-L4 | Tue May  7 13:41:26 2019 (937 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1600 x 900
 
-L4 | Tue May  7 13:41:27 2019 (410 ms) | general | Recording game into file recordedGames/recordedGame000046.txt
-L4 | Tue May  7 13:41:27 2019 (410 ms) | general | Only keeping 20 past recordings
-L4 | Tue May  7 13:41:27 2019 (410 ms) | general | Removed 1 stale recordings
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | New game starting up
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Target game image size:  1024x600
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1440 x 900
 
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Ideal window dimensions:  1280x720
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1400 x 1050
 
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Trying to start in fullscreen mode.
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | The following frame rates are considered possible:
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | 30 fps
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | 60 fps
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | 100 fps
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | 120 fps
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | 144 fps
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Sticking with user's current screen resolution
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general | Available video modes:
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    2560 x 1600
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1366 x 768
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    2048 x 1152
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1360 x 768
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1920 x 1440
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1280 x 1024
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1920 x 1200
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1280 x 960
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1920 x 1080
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1280 x 800
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1920 x 962
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1280 x 768
 
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Tue May  7 13:41:53 2019 (936 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1856 x 1392
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1280 x 720
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1792 x 1344
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    1024 x 768
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1680 x 1050
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    848 x 480
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1600 x 1200
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    800 x 600
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1600 x 900
+L5 | Wed May  8 17:53:22 2019 (303 ms) | general |    640 x 480
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1440 x 900
+L4 | Wed May  8 17:53:22 2019 (755 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1400 x 1050
+L4 | Wed May  8 17:53:23 2019 (321 ms) | general | Recording game into file recordedGames/recordedGame000069.txt
+L4 | Wed May  8 17:53:23 2019 (327 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:53:23 2019 (338 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:53:23 2019 (526 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 17:53:24 2019 (408 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 17:53:38 2019 (534 ms) | general | exiting...
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1366 x 768
+L4 | Wed May  8 17:53:38 2019 (534 ms) | general | exiting: calling SDL_CloseAudio
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1360 x 768
+L4 | Wed May  8 17:53:38 2019 (772 ms) | general | exiting: Deleting sceneHandler
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1280 x 1024
+L4 | Wed May  8 17:53:38 2019 (772 ms) | general | Freeing sound sprites
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1280 x 960
+L4 | Wed May  8 17:53:38 2019 (773 ms) | general | exiting: freeing frameDrawer
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1280 x 800
+L4 | Wed May  8 17:53:38 2019 (819 ms) | general | exiting: Deleting screen
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1280 x 768
+L4 | Wed May  8 17:53:38 2019 (819 ms) | general | exiting: freeing drawString
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1280 x 720
+L4 | Wed May  8 17:53:38 2019 (819 ms) | general | exiting: calling SDL_Quit()
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    1024 x 768
+L4 | Wed May  8 17:53:38 2019 (856 ms) | general | exiting: Done.
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    848 x 480
+L4 | Wed May  8 17:54:52 2019 (446 ms) | general | New game starting up
+L4 | Wed May  8 17:54:52 2019 (446 ms) | general | Target game image size:  1280x720
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    800 x 600
+L4 | Wed May  8 17:54:52 2019 (456 ms) | general | Ideal window dimensions:  1280x720
 
-L5 | Tue May  7 13:41:53 2019 (936 ms) | general |    640 x 480
+L4 | Wed May  8 17:54:52 2019 (457 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:54:52 2019 (458 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:54:52 2019 (458 ms) | general | 30 fps
+L4 | Wed May  8 17:54:52 2019 (458 ms) | general | 60 fps
+L4 | Wed May  8 17:54:52 2019 (458 ms) | general | 100 fps
+L4 | Wed May  8 17:54:52 2019 (458 ms) | general | 120 fps
+L4 | Wed May  8 17:54:52 2019 (458 ms) | general | 144 fps
+L4 | Wed May  8 17:54:52 2019 (461 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:54:52 2019 (461 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:54:52 2019 (461 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:54:52 2019 (461 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:54:52 2019 (461 ms) | general | Available video modes:
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    2560 x 1600
 
-L4 | Tue May  7 13:41:54 2019 (89 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    2048 x 1152
 
-L4 | Tue May  7 13:41:54 2019 (599 ms) | general | Recording game into file recordedGames/recordedGame000047.txt
-L4 | Tue May  7 13:41:54 2019 (599 ms) | general | Only keeping 20 past recordings
-L4 | Tue May  7 13:41:54 2019 (641 ms) | general | Removed 1 stale recordings
-L4 | Tue May  7 13:42:07 2019 (799 ms) | general | New game starting up
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Target game image size:  1024x600
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1920 x 1440
 
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Ideal window dimensions:  1280x720
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1920 x 1200
 
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Trying to start in fullscreen mode.
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | The following frame rates are considered possible:
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | 30 fps
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | 60 fps
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | 100 fps
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | 120 fps
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | 144 fps
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Sticking with user's current screen resolution
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general | Available video modes:
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    2560 x 1600
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1920 x 1080
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    2048 x 1152
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1920 x 962
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1920 x 1440
+L4 | Wed May  8 17:54:52 2019 (461 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:54:52 2019 (461 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1856 x 1392
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1920 x 1200
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1792 x 1344
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1920 x 1080
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1680 x 1050
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1920 x 962
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1600 x 1200
 
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Tue May  7 13:42:07 2019 (800 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1856 x 1392
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1600 x 900
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1792 x 1344
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1440 x 900
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1680 x 1050
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1400 x 1050
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1600 x 1200
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1366 x 768
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1600 x 900
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1360 x 768
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1440 x 900
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1280 x 1024
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1400 x 1050
+L5 | Wed May  8 17:54:52 2019 (461 ms) | general |    1280 x 960
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1366 x 768
+L5 | Wed May  8 17:54:52 2019 (462 ms) | general |    1280 x 800
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1360 x 768
+L5 | Wed May  8 17:54:52 2019 (462 ms) | general |    1280 x 768
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1280 x 1024
+L5 | Wed May  8 17:54:52 2019 (462 ms) | general |    1280 x 720
 
-L5 | Tue May  7 13:42:07 2019 (800 ms) | general |    1280 x 960
+L5 | Wed May  8 17:54:52 2019 (462 ms) | general |    1024 x 768
 
-L5 | Tue May  7 13:42:07 2019 (801 ms) | general |    1280 x 800
+L5 | Wed May  8 17:54:52 2019 (462 ms) | general |    848 x 480
 
-L5 | Tue May  7 13:42:07 2019 (801 ms) | general |    1280 x 768
+L5 | Wed May  8 17:54:52 2019 (462 ms) | general |    800 x 600
 
-L5 | Tue May  7 13:42:07 2019 (801 ms) | general |    1280 x 720
+L5 | Wed May  8 17:54:52 2019 (462 ms) | general |    640 x 480
 
-L5 | Tue May  7 13:42:07 2019 (801 ms) | general |    1024 x 768
+L4 | Wed May  8 17:54:52 2019 (639 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
-L5 | Tue May  7 13:42:07 2019 (801 ms) | general |    848 x 480
+L4 | Wed May  8 17:54:53 2019 (208 ms) | general | Recording game into file recordedGames/recordedGame000070.txt
+L4 | Wed May  8 17:54:53 2019 (214 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:54:53 2019 (215 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:54:53 2019 (408 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 17:54:54 2019 (207 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 17:55:30 2019 (738 ms) | general | exiting...
 
-L5 | Tue May  7 13:42:07 2019 (801 ms) | general |    800 x 600
+L4 | Wed May  8 17:55:30 2019 (738 ms) | general | exiting: calling SDL_CloseAudio
 
-L5 | Tue May  7 13:42:07 2019 (801 ms) | general |    640 x 480
+L4 | Wed May  8 17:55:30 2019 (961 ms) | general | exiting: Deleting sceneHandler
 
-L4 | Tue May  7 13:42:07 2019 (955 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L4 | Wed May  8 17:55:30 2019 (961 ms) | general | Freeing sound sprites
 
-L4 | Tue May  7 13:42:08 2019 (459 ms) | general | Recording game into file recordedGames/recordedGame000048.txt
-L4 | Tue May  7 13:42:08 2019 (459 ms) | general | Only keeping 20 past recordings
-L4 | Tue May  7 13:42:08 2019 (482 ms) | general | Removed 1 stale recordings
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | New game starting up
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Target game image size:  1024x600
+L4 | Wed May  8 17:55:30 2019 (962 ms) | general | exiting: freeing frameDrawer
 
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Ideal window dimensions:  1280x720
+L4 | Wed May  8 17:55:31 2019 (21 ms) | general | exiting: Deleting screen
 
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Trying to start in fullscreen mode.
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | The following frame rates are considered possible:
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | 30 fps
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | 60 fps
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | 100 fps
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | 120 fps
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | 144 fps
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Setting real (not borderless) fullscreen mode
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Sticking with user's current screen resolution
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Checking if requested video mode (1920x962) is available
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general | Available video modes:
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    2560 x 1600
+L4 | Wed May  8 17:55:31 2019 (21 ms) | general | exiting: freeing drawString
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    2048 x 1152
+L4 | Wed May  8 17:55:31 2019 (22 ms) | general | exiting: calling SDL_Quit()
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1920 x 1440
+L4 | Wed May  8 17:55:31 2019 (60 ms) | general | exiting: Done.
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1920 x 1200
+L4 | Wed May  8 17:57:53 2019 (712 ms) | general | New game starting up
+L4 | Wed May  8 17:57:53 2019 (712 ms) | general | Target game image size:  1280x720
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1920 x 1080
+L4 | Wed May  8 17:57:53 2019 (722 ms) | general | Ideal window dimensions:  1280x720
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1920 x 962
+L4 | Wed May  8 17:57:53 2019 (722 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 17:57:53 2019 (723 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 17:57:53 2019 (723 ms) | general | 30 fps
+L4 | Wed May  8 17:57:53 2019 (723 ms) | general | 60 fps
+L4 | Wed May  8 17:57:53 2019 (723 ms) | general | 100 fps
+L4 | Wed May  8 17:57:53 2019 (723 ms) | general | 120 fps
+L4 | Wed May  8 17:57:53 2019 (723 ms) | general | 144 fps
+L4 | Wed May  8 17:57:53 2019 (728 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 17:57:53 2019 (728 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 17:57:53 2019 (728 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 17:57:53 2019 (728 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 17:57:53 2019 (728 ms) | general | Available video modes:
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    2560 x 1600
 
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general |    ^^^^ this mode matches current aspect ratio
-L4 | Tue May  7 13:46:43 2019 (867 ms) | general |    ^^^^ this mode matches requested mode
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1856 x 1392
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    2048 x 1152
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1792 x 1344
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1920 x 1440
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1680 x 1050
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1920 x 1200
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1600 x 1200
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1920 x 1080
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1600 x 900
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1920 x 962
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1440 x 900
+L4 | Wed May  8 17:57:53 2019 (728 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 17:57:53 2019 (728 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1856 x 1392
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1400 x 1050
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1792 x 1344
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1366 x 768
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1680 x 1050
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1360 x 768
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1600 x 1200
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1280 x 1024
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1600 x 900
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1280 x 960
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1440 x 900
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1280 x 800
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1400 x 1050
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1280 x 768
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1366 x 768
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1280 x 720
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1360 x 768
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    1024 x 768
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1280 x 1024
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    848 x 480
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1280 x 960
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    800 x 600
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1280 x 800
 
-L5 | Tue May  7 13:46:43 2019 (867 ms) | general |    640 x 480
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1280 x 768
 
-L4 | Tue May  7 13:46:44 2019 (17 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1280 x 720
 
-L4 | Tue May  7 13:46:44 2019 (531 ms) | general | Recording game into file recordedGames/recordedGame000049.txt
-L4 | Tue May  7 13:46:44 2019 (531 ms) | general | Only keeping 20 past recordings
-L4 | Tue May  7 13:46:44 2019 (531 ms) | general | Removed 1 stale recordings
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    1024 x 768
+
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    848 x 480
+
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    800 x 600
+
+L5 | Wed May  8 17:57:53 2019 (728 ms) | general |    640 x 480
+
+L4 | Wed May  8 17:57:54 2019 (15 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 17:57:54 2019 (598 ms) | general | Recording game into file recordedGames/recordedGame000071.txt
+L4 | Wed May  8 17:57:54 2019 (599 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 17:57:54 2019 (614 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 17:57:54 2019 (829 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 17:57:55 2019 (605 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 17:58:07 2019 (911 ms) | general | exiting...
+
+L4 | Wed May  8 17:58:07 2019 (911 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 17:58:08 2019 (276 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 17:58:08 2019 (276 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 17:58:08 2019 (277 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 17:58:08 2019 (515 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 17:58:08 2019 (515 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 17:58:08 2019 (515 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 17:58:09 2019 (323 ms) | general | exiting: Done.
+
+L4 | Wed May  8 18:02:32 2019 (716 ms) | general | New game starting up
+L4 | Wed May  8 18:02:32 2019 (716 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 18:02:32 2019 (722 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 18:02:32 2019 (729 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 18:02:32 2019 (731 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 18:02:32 2019 (731 ms) | general | 30 fps
+L4 | Wed May  8 18:02:32 2019 (731 ms) | general | 60 fps
+L4 | Wed May  8 18:02:32 2019 (731 ms) | general | 100 fps
+L4 | Wed May  8 18:02:32 2019 (731 ms) | general | 120 fps
+L4 | Wed May  8 18:02:32 2019 (731 ms) | general | 144 fps
+L4 | Wed May  8 18:02:32 2019 (736 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 18:02:32 2019 (736 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 18:02:32 2019 (736 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 18:02:32 2019 (736 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 18:02:32 2019 (736 ms) | general | Available video modes:
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1920 x 962
+
+L4 | Wed May  8 18:02:32 2019 (736 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 18:02:32 2019 (736 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1600 x 900
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1440 x 900
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1366 x 768
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1360 x 768
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1280 x 960
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1280 x 800
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1280 x 768
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1280 x 720
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    1024 x 768
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    848 x 480
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    800 x 600
+
+L5 | Wed May  8 18:02:32 2019 (736 ms) | general |    640 x 480
+
+L4 | Wed May  8 18:02:34 2019 (790 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 18:02:35 2019 (939 ms) | general | Recording game into file recordedGames/recordedGame000072.txt
+L4 | Wed May  8 18:02:35 2019 (946 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 18:02:35 2019 (946 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 18:02:36 2019 (286 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 18:02:37 2019 (705 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 18:03:00 2019 (11 ms) | general | exiting...
+
+L4 | Wed May  8 18:03:00 2019 (26 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:03:00 2019 (338 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 18:03:00 2019 (338 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 18:03:00 2019 (339 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 18:03:00 2019 (428 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 18:03:00 2019 (428 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 18:03:00 2019 (428 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 18:03:01 2019 (153 ms) | general | exiting: Done.
+
+L4 | Wed May  8 18:08:24 2019 (867 ms) | general | New game starting up
+L4 | Wed May  8 18:08:24 2019 (867 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 18:08:24 2019 (900 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 18:08:24 2019 (927 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 18:08:24 2019 (957 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 18:08:24 2019 (957 ms) | general | 30 fps
+L4 | Wed May  8 18:08:24 2019 (957 ms) | general | 60 fps
+L4 | Wed May  8 18:08:24 2019 (957 ms) | general | 100 fps
+L4 | Wed May  8 18:08:24 2019 (957 ms) | general | 120 fps
+L4 | Wed May  8 18:08:24 2019 (957 ms) | general | 144 fps
+L4 | Wed May  8 18:08:25 2019 (40 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 18:08:25 2019 (40 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 18:08:25 2019 (40 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 18:08:25 2019 (40 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 18:08:25 2019 (40 ms) | general | Available video modes:
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1920 x 962
+
+L4 | Wed May  8 18:08:25 2019 (40 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 18:08:25 2019 (40 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1600 x 900
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1440 x 900
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1366 x 768
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1360 x 768
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1280 x 960
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1280 x 800
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1280 x 768
+
+L5 | Wed May  8 18:08:25 2019 (40 ms) | general |    1280 x 720
+
+L5 | Wed May  8 18:08:25 2019 (41 ms) | general |    1024 x 768
+
+L5 | Wed May  8 18:08:25 2019 (41 ms) | general |    848 x 480
+
+L5 | Wed May  8 18:08:25 2019 (41 ms) | general |    800 x 600
+
+L5 | Wed May  8 18:08:25 2019 (41 ms) | general |    640 x 480
+
+L4 | Wed May  8 18:08:29 2019 (873 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 18:08:32 2019 (649 ms) | general | Recording game into file recordedGames/recordedGame000073.txt
+L4 | Wed May  8 18:08:32 2019 (714 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 18:08:32 2019 (715 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 18:08:33 2019 (85 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 18:08:34 2019 (122 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 18:09:10 2019 (372 ms) | general | Relaunching game ./OneLifeApp
+L4 | Wed May  8 18:09:10 2019 (387 ms) | general | exiting...
+
+L4 | Wed May  8 18:09:10 2019 (388 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:09:10 2019 (388 ms) | general | exiting...
+
+L4 | Wed May  8 18:09:10 2019 (388 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:11:00 2019 (742 ms) | general | New game starting up
+L4 | Wed May  8 18:11:00 2019 (743 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 18:11:00 2019 (757 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 18:11:00 2019 (758 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 18:11:00 2019 (771 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 18:11:00 2019 (771 ms) | general | 30 fps
+L4 | Wed May  8 18:11:00 2019 (771 ms) | general | 60 fps
+L4 | Wed May  8 18:11:00 2019 (771 ms) | general | 100 fps
+L4 | Wed May  8 18:11:00 2019 (771 ms) | general | 120 fps
+L4 | Wed May  8 18:11:00 2019 (771 ms) | general | 144 fps
+L4 | Wed May  8 18:11:00 2019 (812 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 18:11:00 2019 (812 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 18:11:00 2019 (812 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 18:11:00 2019 (812 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 18:11:00 2019 (812 ms) | general | Available video modes:
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1920 x 962
+
+L4 | Wed May  8 18:11:00 2019 (812 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 18:11:00 2019 (812 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1600 x 900
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1440 x 900
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1366 x 768
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1360 x 768
+
+L5 | Wed May  8 18:11:00 2019 (812 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    1280 x 960
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    1280 x 800
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    1280 x 768
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    1280 x 720
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    1024 x 768
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    848 x 480
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    800 x 600
+
+L5 | Wed May  8 18:11:00 2019 (813 ms) | general |    640 x 480
+
+L4 | Wed May  8 18:11:02 2019 (578 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 18:11:05 2019 (106 ms) | general | Measured frame rate = 144.278625 fps
+
+L4 | Wed May  8 18:11:05 2019 (106 ms) | general | Closest possible frame rate = 144 fps
+
+L4 | Wed May  8 18:11:05 2019 (106 ms) | general | Vsync seems to be enforcing an allowed frame rate of 144 fps.
+
+L4 | Wed May  8 18:11:05 2019 (152 ms) | general | Recording game into file recordedGames/recordedGame000074.txt
+L4 | Wed May  8 18:11:05 2019 (159 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 18:11:05 2019 (186 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 18:11:05 2019 (302 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 18:11:06 2019 (198 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 18:11:38 2019 (107 ms) | general | exiting...
+
+L4 | Wed May  8 18:11:38 2019 (107 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:11:38 2019 (377 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 18:11:38 2019 (377 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 18:11:38 2019 (378 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 18:11:38 2019 (532 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 18:11:38 2019 (532 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 18:11:38 2019 (533 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 18:11:39 2019 (503 ms) | general | exiting: Done.
+
+L4 | Wed May  8 18:27:09 2019 (591 ms) | general | New game starting up
+L4 | Wed May  8 18:27:09 2019 (591 ms) | general | Target game image size:  1024x600
+
+L4 | Wed May  8 18:27:09 2019 (597 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 18:27:09 2019 (604 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 18:27:09 2019 (606 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 18:27:09 2019 (606 ms) | general | 30 fps
+L4 | Wed May  8 18:27:09 2019 (606 ms) | general | 60 fps
+L4 | Wed May  8 18:27:09 2019 (606 ms) | general | 100 fps
+L4 | Wed May  8 18:27:09 2019 (606 ms) | general | 120 fps
+L4 | Wed May  8 18:27:09 2019 (606 ms) | general | 144 fps
+L4 | Wed May  8 18:27:09 2019 (622 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 18:27:09 2019 (622 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 18:27:09 2019 (622 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 18:27:09 2019 (622 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 18:27:09 2019 (622 ms) | general | Available video modes:
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1920 x 962
+
+L4 | Wed May  8 18:27:09 2019 (622 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 18:27:09 2019 (622 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1600 x 900
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1440 x 900
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1366 x 768
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1360 x 768
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1280 x 960
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1280 x 800
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1280 x 768
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1280 x 720
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    1024 x 768
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    848 x 480
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    800 x 600
+
+L5 | Wed May  8 18:27:09 2019 (622 ms) | general |    640 x 480
+
+L4 | Wed May  8 18:27:10 2019 (859 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 18:27:11 2019 (688 ms) | general | Recording game into file recordedGames/recordedGame000075.txt
+L4 | Wed May  8 18:27:11 2019 (696 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 18:27:11 2019 (697 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 18:27:46 2019 (169 ms) | general | exiting...
+
+L4 | Wed May  8 18:27:46 2019 (169 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:27:46 2019 (392 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 18:27:46 2019 (392 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 18:27:46 2019 (393 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 18:27:46 2019 (455 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 18:27:46 2019 (455 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 18:27:46 2019 (455 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 18:27:46 2019 (484 ms) | general | exiting: Done.
+
+L4 | Wed May  8 18:32:12 2019 (708 ms) | general | New game starting up
+L4 | Wed May  8 18:32:12 2019 (709 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 18:32:12 2019 (709 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 18:32:12 2019 (718 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 18:32:12 2019 (720 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 18:32:12 2019 (720 ms) | general | 30 fps
+L4 | Wed May  8 18:32:12 2019 (720 ms) | general | 60 fps
+L4 | Wed May  8 18:32:12 2019 (720 ms) | general | 100 fps
+L4 | Wed May  8 18:32:12 2019 (720 ms) | general | 120 fps
+L4 | Wed May  8 18:32:12 2019 (720 ms) | general | 144 fps
+L4 | Wed May  8 18:32:12 2019 (723 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 18:32:12 2019 (723 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 18:32:12 2019 (723 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 18:32:12 2019 (723 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 18:32:12 2019 (723 ms) | general | Available video modes:
+L5 | Wed May  8 18:32:12 2019 (723 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 18:32:12 2019 (723 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 18:32:12 2019 (723 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1920 x 962
+
+L4 | Wed May  8 18:32:12 2019 (724 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 18:32:12 2019 (724 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1600 x 900
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1440 x 900
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1366 x 768
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1360 x 768
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1280 x 960
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1280 x 800
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1280 x 768
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1280 x 720
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    1024 x 768
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    848 x 480
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    800 x 600
+
+L5 | Wed May  8 18:32:12 2019 (724 ms) | general |    640 x 480
+
+L4 | Wed May  8 18:32:12 2019 (996 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 18:32:13 2019 (589 ms) | general | Recording game into file recordedGames/recordedGame000076.txt
+L4 | Wed May  8 18:32:13 2019 (602 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 18:32:13 2019 (612 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 18:32:13 2019 (819 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 18:32:14 2019 (610 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 18:34:19 2019 (568 ms) | general | exiting...
+
+L4 | Wed May  8 18:34:19 2019 (578 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:34:19 2019 (792 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 18:34:19 2019 (792 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 18:34:19 2019 (793 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 18:34:19 2019 (854 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 18:34:19 2019 (854 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 18:34:19 2019 (855 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 18:34:20 2019 (211 ms) | general | exiting: Done.
+
+L4 | Wed May  8 18:56:59 2019 (181 ms) | general | New game starting up
+L4 | Wed May  8 18:56:59 2019 (181 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 18:56:59 2019 (203 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 18:56:59 2019 (203 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 18:56:59 2019 (204 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 18:56:59 2019 (204 ms) | general | 30 fps
+L4 | Wed May  8 18:56:59 2019 (204 ms) | general | 60 fps
+L4 | Wed May  8 18:56:59 2019 (204 ms) | general | 100 fps
+L4 | Wed May  8 18:56:59 2019 (204 ms) | general | 120 fps
+L4 | Wed May  8 18:56:59 2019 (204 ms) | general | 144 fps
+L4 | Wed May  8 18:56:59 2019 (220 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 18:56:59 2019 (220 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 18:56:59 2019 (220 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 18:56:59 2019 (220 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 18:56:59 2019 (220 ms) | general | Available video modes:
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1920 x 962
+
+L4 | Wed May  8 18:56:59 2019 (220 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 18:56:59 2019 (220 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1600 x 900
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1440 x 900
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1366 x 768
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1360 x 768
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1280 x 960
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1280 x 800
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1280 x 768
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1280 x 720
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    1024 x 768
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    848 x 480
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    800 x 600
+
+L5 | Wed May  8 18:56:59 2019 (220 ms) | general |    640 x 480
+
+L4 | Wed May  8 18:56:59 2019 (981 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 18:57:00 2019 (578 ms) | general | Recording game into file recordedGames/recordedGame000077.txt
+L4 | Wed May  8 18:57:00 2019 (585 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 18:57:00 2019 (586 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 18:57:00 2019 (783 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 18:57:01 2019 (559 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 18:57:17 2019 (0 ms) | general | Relaunching game ./OneLifeApp
+L4 | Wed May  8 18:57:18 2019 (324 ms) | general | exiting...
+
+L4 | Wed May  8 18:57:18 2019 (324 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:57:18 2019 (324 ms) | general | exiting...
+
+L4 | Wed May  8 18:57:18 2019 (325 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:57:18 2019 (711 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 18:57:18 2019 (717 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 18:57:18 2019 (726 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 18:57:23 2019 (769 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 18:57:24 2019 (765 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 18:57:24 2019 (814 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 18:57:28 2019 (694 ms) | general | exiting: Done.
+
+L4 | Wed May  8 18:57:47 2019 (253 ms) | general | New game starting up
+L4 | Wed May  8 18:57:47 2019 (253 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 18:57:47 2019 (268 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 18:57:47 2019 (269 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 18:57:47 2019 (270 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 18:57:47 2019 (270 ms) | general | 30 fps
+L4 | Wed May  8 18:57:47 2019 (270 ms) | general | 60 fps
+L4 | Wed May  8 18:57:47 2019 (270 ms) | general | 100 fps
+L4 | Wed May  8 18:57:47 2019 (270 ms) | general | 120 fps
+L4 | Wed May  8 18:57:47 2019 (270 ms) | general | 144 fps
+L4 | Wed May  8 18:57:47 2019 (314 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 18:57:47 2019 (314 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 18:57:47 2019 (314 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 18:57:47 2019 (314 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 18:57:47 2019 (314 ms) | general | Available video modes:
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1920 x 962
+
+L4 | Wed May  8 18:57:47 2019 (314 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 18:57:47 2019 (314 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1600 x 900
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1440 x 900
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1366 x 768
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1360 x 768
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1280 x 960
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1280 x 800
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1280 x 768
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1280 x 720
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    1024 x 768
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    848 x 480
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    800 x 600
+
+L5 | Wed May  8 18:57:47 2019 (314 ms) | general |    640 x 480
+
+L4 | Wed May  8 18:57:48 2019 (739 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 18:57:51 2019 (275 ms) | general | Measured frame rate = 125.998215 fps
+
+L4 | Wed May  8 18:57:51 2019 (275 ms) | general | Closest possible frame rate = 120 fps
+
+L4 | Wed May  8 18:57:51 2019 (275 ms) | general | Vsync seems to be enforcing an allowed frame rate of 120 fps.
+
+L4 | Wed May  8 18:57:51 2019 (385 ms) | general | Recording game into file recordedGames/recordedGame000078.txt
+L4 | Wed May  8 18:57:51 2019 (434 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 18:57:51 2019 (792 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 18:57:52 2019 (29 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 18:57:53 2019 (290 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 18:58:44 2019 (905 ms) | general | exiting...
+
+L4 | Wed May  8 18:58:44 2019 (905 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 18:58:45 2019 (134 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 18:58:45 2019 (134 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 18:58:45 2019 (135 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 18:58:45 2019 (196 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 18:58:45 2019 (196 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 18:58:45 2019 (196 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 18:58:45 2019 (350 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:11:35 2019 (199 ms) | general | New game starting up
+L4 | Wed May  8 19:11:35 2019 (199 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 19:11:35 2019 (208 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:11:35 2019 (208 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:11:35 2019 (209 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:11:35 2019 (209 ms) | general | 30 fps
+L4 | Wed May  8 19:11:35 2019 (209 ms) | general | 60 fps
+L4 | Wed May  8 19:11:35 2019 (209 ms) | general | 100 fps
+L4 | Wed May  8 19:11:35 2019 (209 ms) | general | 120 fps
+L4 | Wed May  8 19:11:35 2019 (209 ms) | general | 144 fps
+L4 | Wed May  8 19:11:35 2019 (214 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:11:35 2019 (215 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:11:35 2019 (215 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:11:35 2019 (215 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:11:35 2019 (215 ms) | general | Available video modes:
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:11:35 2019 (215 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:11:35 2019 (215 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:11:35 2019 (215 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:11:35 2019 (568 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:11:36 2019 (141 ms) | general | Recording game into file recordedGames/recordedGame000079.txt
+L4 | Wed May  8 19:11:36 2019 (148 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:11:36 2019 (149 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:11:36 2019 (350 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 19:11:37 2019 (123 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 19:16:34 2019 (678 ms) | general | exiting...
+
+L4 | Wed May  8 19:16:34 2019 (679 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:16:34 2019 (901 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:16:34 2019 (901 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:16:34 2019 (902 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:16:34 2019 (960 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:16:34 2019 (960 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:16:34 2019 (961 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:16:35 2019 (34 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:16:43 2019 (99 ms) | general | New game starting up
+L4 | Wed May  8 19:16:43 2019 (99 ms) | general | Target game image size:  1024x600
+
+L4 | Wed May  8 19:16:43 2019 (107 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:16:43 2019 (107 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:16:43 2019 (108 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:16:43 2019 (108 ms) | general | 30 fps
+L4 | Wed May  8 19:16:43 2019 (108 ms) | general | 60 fps
+L4 | Wed May  8 19:16:43 2019 (108 ms) | general | 100 fps
+L4 | Wed May  8 19:16:43 2019 (108 ms) | general | 120 fps
+L4 | Wed May  8 19:16:43 2019 (108 ms) | general | 144 fps
+L4 | Wed May  8 19:16:43 2019 (115 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:16:43 2019 (115 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:16:43 2019 (115 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:16:43 2019 (115 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:16:43 2019 (115 ms) | general | Available video modes:
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:16:43 2019 (115 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:16:43 2019 (115 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:16:43 2019 (115 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:16:43 2019 (551 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:16:44 2019 (133 ms) | general | Recording game into file recordedGames/recordedGame000080.txt
+L4 | Wed May  8 19:16:44 2019 (139 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:16:44 2019 (140 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:21:53 2019 (695 ms) | general | exiting...
+
+L4 | Wed May  8 19:21:53 2019 (695 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:21:53 2019 (899 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:21:53 2019 (899 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:21:53 2019 (900 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:21:53 2019 (964 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:21:53 2019 (964 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:21:53 2019 (964 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:21:54 2019 (59 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:22:03 2019 (49 ms) | general | New game starting up
+L4 | Wed May  8 19:22:03 2019 (49 ms) | general | Target game image size:  1024x600
+
+L4 | Wed May  8 19:22:03 2019 (65 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:22:03 2019 (65 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:22:03 2019 (67 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:22:03 2019 (67 ms) | general | 30 fps
+L4 | Wed May  8 19:22:03 2019 (67 ms) | general | 60 fps
+L4 | Wed May  8 19:22:03 2019 (67 ms) | general | 100 fps
+L4 | Wed May  8 19:22:03 2019 (67 ms) | general | 120 fps
+L4 | Wed May  8 19:22:03 2019 (67 ms) | general | 144 fps
+L4 | Wed May  8 19:22:03 2019 (71 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:22:03 2019 (71 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:22:03 2019 (71 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:22:03 2019 (71 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:22:03 2019 (71 ms) | general | Available video modes:
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:22:03 2019 (71 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:22:03 2019 (71 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:22:03 2019 (71 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:22:03 2019 (409 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:22:04 2019 (8 ms) | general | Recording game into file recordedGames/recordedGame000081.txt
+L4 | Wed May  8 19:22:04 2019 (9 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:22:04 2019 (9 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:25:17 2019 (158 ms) | general | exiting...
+
+L4 | Wed May  8 19:25:17 2019 (193 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:25:17 2019 (397 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:25:17 2019 (397 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:25:17 2019 (398 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:25:17 2019 (467 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:25:17 2019 (467 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:25:17 2019 (467 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:25:17 2019 (488 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:25:28 2019 (911 ms) | general | New game starting up
+L4 | Wed May  8 19:25:28 2019 (911 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 19:25:28 2019 (919 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:25:28 2019 (919 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:25:28 2019 (921 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:25:28 2019 (921 ms) | general | 30 fps
+L4 | Wed May  8 19:25:28 2019 (921 ms) | general | 60 fps
+L4 | Wed May  8 19:25:28 2019 (921 ms) | general | 100 fps
+L4 | Wed May  8 19:25:28 2019 (921 ms) | general | 120 fps
+L4 | Wed May  8 19:25:28 2019 (921 ms) | general | 144 fps
+L4 | Wed May  8 19:25:28 2019 (925 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:25:28 2019 (925 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:25:28 2019 (925 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:25:28 2019 (925 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:25:28 2019 (925 ms) | general | Available video modes:
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:25:28 2019 (925 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:25:28 2019 (925 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:25:28 2019 (925 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:25:29 2019 (63 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:25:29 2019 (678 ms) | general | Recording game into file recordedGames/recordedGame000082.txt
+L4 | Wed May  8 19:25:29 2019 (679 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:25:29 2019 (704 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:25:29 2019 (894 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 19:25:30 2019 (757 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 19:26:04 2019 (691 ms) | general | exiting...
+
+L4 | Wed May  8 19:26:04 2019 (691 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:26:04 2019 (931 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:26:04 2019 (931 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:26:04 2019 (932 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:26:04 2019 (993 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:26:04 2019 (993 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:26:04 2019 (993 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:26:05 2019 (40 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:26:12 2019 (331 ms) | general | New game starting up
+L4 | Wed May  8 19:26:12 2019 (331 ms) | general | Target game image size:  1024x600
+
+L4 | Wed May  8 19:26:12 2019 (336 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:26:12 2019 (337 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:26:12 2019 (338 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:26:12 2019 (338 ms) | general | 30 fps
+L4 | Wed May  8 19:26:12 2019 (338 ms) | general | 60 fps
+L4 | Wed May  8 19:26:12 2019 (338 ms) | general | 100 fps
+L4 | Wed May  8 19:26:12 2019 (338 ms) | general | 120 fps
+L4 | Wed May  8 19:26:12 2019 (338 ms) | general | 144 fps
+L4 | Wed May  8 19:26:12 2019 (353 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:26:12 2019 (353 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:26:12 2019 (353 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:26:12 2019 (353 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:26:12 2019 (353 ms) | general | Available video modes:
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:26:12 2019 (353 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:26:12 2019 (353 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:26:12 2019 (353 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:26:12 2019 (779 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:26:13 2019 (437 ms) | general | Recording game into file recordedGames/recordedGame000083.txt
+L4 | Wed May  8 19:26:13 2019 (439 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:26:13 2019 (469 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:27:18 2019 (341 ms) | general | exiting...
+
+L4 | Wed May  8 19:27:18 2019 (341 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:27:18 2019 (558 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:27:18 2019 (558 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:27:18 2019 (559 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:27:18 2019 (610 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:27:18 2019 (610 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:27:18 2019 (610 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:27:18 2019 (626 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:27:39 2019 (696 ms) | general | New game starting up
+L4 | Wed May  8 19:27:39 2019 (696 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 19:27:39 2019 (704 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:27:39 2019 (705 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:27:39 2019 (706 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:27:39 2019 (706 ms) | general | 30 fps
+L4 | Wed May  8 19:27:39 2019 (706 ms) | general | 60 fps
+L4 | Wed May  8 19:27:39 2019 (706 ms) | general | 100 fps
+L4 | Wed May  8 19:27:39 2019 (706 ms) | general | 120 fps
+L4 | Wed May  8 19:27:39 2019 (706 ms) | general | 144 fps
+L4 | Wed May  8 19:27:39 2019 (709 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:27:39 2019 (709 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:27:39 2019 (709 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:27:39 2019 (709 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:27:39 2019 (709 ms) | general | Available video modes:
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:27:39 2019 (709 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:27:39 2019 (709 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:27:39 2019 (709 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:27:39 2019 (710 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:27:39 2019 (972 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:27:40 2019 (586 ms) | general | Recording game into file recordedGames/recordedGame000084.txt
+L4 | Wed May  8 19:27:40 2019 (595 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:27:40 2019 (614 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:27:40 2019 (912 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 19:27:42 2019 (51 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 19:34:33 2019 (780 ms) | general | exiting...
+
+L4 | Wed May  8 19:34:33 2019 (800 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:34:34 2019 (45 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:34:34 2019 (46 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:34:34 2019 (47 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:34:34 2019 (105 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:34:34 2019 (105 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:34:34 2019 (106 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:34:34 2019 (373 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:34:41 2019 (84 ms) | general | New game starting up
+L4 | Wed May  8 19:34:41 2019 (84 ms) | general | Target game image size:  1024x600
+
+L4 | Wed May  8 19:34:41 2019 (92 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:34:41 2019 (93 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:34:41 2019 (94 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:34:41 2019 (94 ms) | general | 30 fps
+L4 | Wed May  8 19:34:41 2019 (94 ms) | general | 60 fps
+L4 | Wed May  8 19:34:41 2019 (94 ms) | general | 100 fps
+L4 | Wed May  8 19:34:41 2019 (94 ms) | general | 120 fps
+L4 | Wed May  8 19:34:41 2019 (94 ms) | general | 144 fps
+L4 | Wed May  8 19:34:41 2019 (117 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:34:41 2019 (117 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:34:41 2019 (117 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:34:41 2019 (117 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:34:41 2019 (118 ms) | general | Available video modes:
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:34:41 2019 (118 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:34:41 2019 (118 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:34:41 2019 (118 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:34:41 2019 (936 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:34:42 2019 (567 ms) | general | Recording game into file recordedGames/recordedGame000085.txt
+L4 | Wed May  8 19:34:42 2019 (574 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:34:42 2019 (576 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:37:03 2019 (215 ms) | general | exiting...
+
+L4 | Wed May  8 19:37:03 2019 (215 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:37:03 2019 (439 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:37:03 2019 (439 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:37:03 2019 (440 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:37:03 2019 (490 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:37:03 2019 (491 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:37:03 2019 (491 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:37:03 2019 (555 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:37:18 2019 (170 ms) | general | New game starting up
+L4 | Wed May  8 19:37:18 2019 (170 ms) | general | Target game image size:  1280x720
+
+L4 | Wed May  8 19:37:18 2019 (184 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:37:18 2019 (192 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:37:18 2019 (207 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:37:18 2019 (207 ms) | general | 30 fps
+L4 | Wed May  8 19:37:18 2019 (207 ms) | general | 60 fps
+L4 | Wed May  8 19:37:18 2019 (207 ms) | general | 100 fps
+L4 | Wed May  8 19:37:18 2019 (207 ms) | general | 120 fps
+L4 | Wed May  8 19:37:18 2019 (207 ms) | general | 144 fps
+L4 | Wed May  8 19:37:18 2019 (233 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:37:18 2019 (233 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:37:18 2019 (233 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:37:18 2019 (233 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:37:18 2019 (233 ms) | general | Available video modes:
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:37:18 2019 (233 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:37:18 2019 (233 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:37:18 2019 (233 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:37:19 2019 (383 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:37:20 2019 (69 ms) | general | Recording game into file recordedGames/recordedGame000086.txt
+L4 | Wed May  8 19:37:20 2019 (76 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:37:20 2019 (86 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:37:20 2019 (428 ms) | general | OneLife client v219 (binV=219, dataV=4) starting up
+L2 | Wed May  8 19:37:21 2019 (927 ms) | general | xclip must be installed for clipboard to work
+L4 | Wed May  8 19:41:42 2019 (840 ms) | general | exiting...
+
+L4 | Wed May  8 19:41:42 2019 (840 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:41:43 2019 (52 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:41:43 2019 (52 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:41:43 2019 (52 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:41:43 2019 (101 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:41:43 2019 (101 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:41:43 2019 (102 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:41:43 2019 (122 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:43:09 2019 (502 ms) | general | New game starting up
+L4 | Wed May  8 19:43:09 2019 (502 ms) | general | Target game image size:  1024x600
+
+L4 | Wed May  8 19:43:09 2019 (513 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:43:09 2019 (513 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:43:09 2019 (514 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:43:09 2019 (514 ms) | general | 30 fps
+L4 | Wed May  8 19:43:09 2019 (514 ms) | general | 60 fps
+L4 | Wed May  8 19:43:09 2019 (514 ms) | general | 100 fps
+L4 | Wed May  8 19:43:09 2019 (514 ms) | general | 120 fps
+L4 | Wed May  8 19:43:09 2019 (514 ms) | general | 144 fps
+L4 | Wed May  8 19:43:09 2019 (530 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:43:09 2019 (530 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:43:09 2019 (530 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:43:09 2019 (530 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:43:09 2019 (530 ms) | general | Available video modes:
+L5 | Wed May  8 19:43:09 2019 (530 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:43:09 2019 (530 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:43:09 2019 (531 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:43:09 2019 (531 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:43:09 2019 (531 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:43:09 2019 (532 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:43:09 2019 (532 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:43:09 2019 (532 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:43:09 2019 (532 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:43:09 2019 (681 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:43:10 2019 (322 ms) | general | Recording game into file recordedGames/recordedGame000087.txt
+L4 | Wed May  8 19:43:10 2019 (328 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:43:10 2019 (331 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:50:15 2019 (859 ms) | general | exiting...
+
+L4 | Wed May  8 19:50:15 2019 (860 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:50:16 2019 (69 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:50:16 2019 (69 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:50:16 2019 (69 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:50:16 2019 (135 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:50:16 2019 (135 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:50:16 2019 (135 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:50:16 2019 (151 ms) | general | exiting: Done.
+
+L4 | Wed May  8 19:51:22 2019 (166 ms) | general | New game starting up
+L4 | Wed May  8 19:51:22 2019 (166 ms) | general | Target game image size:  1024x600
+
+L4 | Wed May  8 19:51:22 2019 (174 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Wed May  8 19:51:22 2019 (174 ms) | general | Trying to start in fullscreen mode.
+L4 | Wed May  8 19:51:22 2019 (176 ms) | general | The following frame rates are considered possible:
+L4 | Wed May  8 19:51:22 2019 (176 ms) | general | 30 fps
+L4 | Wed May  8 19:51:22 2019 (176 ms) | general | 60 fps
+L4 | Wed May  8 19:51:22 2019 (176 ms) | general | 100 fps
+L4 | Wed May  8 19:51:22 2019 (176 ms) | general | 120 fps
+L4 | Wed May  8 19:51:22 2019 (176 ms) | general | 144 fps
+L4 | Wed May  8 19:51:22 2019 (179 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Wed May  8 19:51:22 2019 (179 ms) | general | Current screen configuration is 1920x962 with aspect ratio 1.99
+L4 | Wed May  8 19:51:22 2019 (179 ms) | general | Sticking with user's current screen resolution
+L4 | Wed May  8 19:51:22 2019 (179 ms) | general | Checking if requested video mode (1920x962) is available
+L4 | Wed May  8 19:51:22 2019 (179 ms) | general | Available video modes:
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    2560 x 1600
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    2048 x 1152
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1920 x 1440
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1920 x 1200
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1920 x 1080
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1920 x 962
+
+L4 | Wed May  8 19:51:22 2019 (179 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Wed May  8 19:51:22 2019 (179 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1856 x 1392
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1792 x 1344
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1680 x 1050
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1600 x 1200
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1600 x 900
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1440 x 900
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1400 x 1050
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1366 x 768
+
+L5 | Wed May  8 19:51:22 2019 (179 ms) | general |    1360 x 768
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    1280 x 1024
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    1280 x 960
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    1280 x 800
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    1280 x 768
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    1280 x 720
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    1024 x 768
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    848 x 480
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    800 x 600
+
+L5 | Wed May  8 19:51:22 2019 (180 ms) | general |    640 x 480
+
+L4 | Wed May  8 19:51:22 2019 (517 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Wed May  8 19:51:23 2019 (96 ms) | general | Recording game into file recordedGames/recordedGame000088.txt
+L4 | Wed May  8 19:51:23 2019 (96 ms) | general | Only keeping 20 past recordings
+L4 | Wed May  8 19:51:23 2019 (97 ms) | general | Removed 1 stale recordings
+L4 | Wed May  8 19:53:23 2019 (96 ms) | general | exiting...
+
+L4 | Wed May  8 19:53:23 2019 (96 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Wed May  8 19:53:23 2019 (303 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Wed May  8 19:53:23 2019 (303 ms) | general | Freeing sound sprites
+
+L4 | Wed May  8 19:53:23 2019 (304 ms) | general | exiting: freeing frameDrawer
+
+L4 | Wed May  8 19:53:23 2019 (369 ms) | general | exiting: Deleting screen
+
+L4 | Wed May  8 19:53:23 2019 (369 ms) | general | exiting: freeing drawString
+
+L4 | Wed May  8 19:53:23 2019 (369 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Wed May  8 19:53:23 2019 (402 ms) | general | exiting: Done.
+
