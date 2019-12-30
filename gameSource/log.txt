@@ -806,3 +806,85 @@ L4 | Wed Aug 28 13:20:38 2019 (573 ms) | general | exiting: calling SDL_Quit()
 
 L4 | Wed Aug 28 13:20:38 2019 (618 ms) | general | exiting: Done.
 
+L4 | Mon Dec 30 01:06:04 2019 (480 ms) | general | New game starting up
+L4 | Mon Dec 30 01:06:04 2019 (480 ms) | general | Target game image size:  1024x600
+
+L4 | Mon Dec 30 01:06:04 2019 (480 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | Trying to start in fullscreen mode.
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | The following frame rates are considered possible:
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | 30 fps
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | 60 fps
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | 100 fps
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | 120 fps
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | 144 fps
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | Sticking with user's current screen resolution
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general | Available video modes:
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    2560 x 1600
+
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1920 x 1440
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1920 x 1200
+
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1856 x 1392
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1792 x 1344
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1680 x 1050
+
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1600 x 1200
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1440 x 900
+
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1400 x 1050
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1360 x 768
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1280 x 1024
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1280 x 960
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1280 x 800
+
+L4 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1280 x 768
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1152 x 864
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    1024 x 768
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    800 x 600
+
+L5 | Mon Dec 30 01:06:04 2019 (481 ms) | general |    640 x 480
+
+L4 | Mon Dec 30 01:06:04 2019 (552 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Mon Dec 30 01:06:04 2019 (835 ms) | general | Recording game into file recordedGames/recordedGame000001.txt
+L4 | Mon Dec 30 01:06:04 2019 (835 ms) | general | Only keeping 20 past recordings
+L4 | Mon Dec 30 01:06:04 2019 (835 ms) | general | Removed 0 stale recordings
+L4 | Mon Dec 30 01:07:26 2019 (99 ms) | general | exiting...
+
+L4 | Mon Dec 30 01:07:26 2019 (112 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Mon Dec 30 01:07:26 2019 (331 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Mon Dec 30 01:07:26 2019 (331 ms) | general | Freeing sound sprites
+
+L4 | Mon Dec 30 01:07:26 2019 (332 ms) | general | exiting: freeing frameDrawer
+
+L4 | Mon Dec 30 01:07:26 2019 (443 ms) | general | exiting: Deleting screen
+
+L4 | Mon Dec 30 01:07:26 2019 (443 ms) | general | exiting: freeing drawString
+
+L4 | Mon Dec 30 01:07:26 2019 (444 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Mon Dec 30 01:07:26 2019 (464 ms) | general | exiting: Done.
+
