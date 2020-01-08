@@ -331,7 +331,6 @@ static void drawObjectList( char inCategories,
             smallFont->drawString( "Prob", 
                                    textPos, alignRight );
             }
-<<<<<<< HEAD
         else if( inPattern ) {
             textPos.x -= 20;
 
@@ -342,10 +341,6 @@ static void drawObjectList( char inCategories,
             
             delete [] iString;
             }
-=======
-        
->>>>>>> parent of ab444b1... Jason's patch for recurring items in pattern
-        
         pos.y -= spacing;
         }
     }
