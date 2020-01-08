@@ -336,10 +336,10 @@ static void drawObjectList( char inCategories,
             textPos.x -= 20;
 
             char *iString = autoSprintf( "%d", i );
-
+            
             smallFont->drawString( iString, 
                                    textPos, alignRight );
-
+            
             delete [] iString;
             }
         
@@ -431,7 +431,8 @@ void EditorCategoryPage::draw( doublePair inViewCenter,
                 w = &( cat->objectWeights );
                 }
             
-            drawObjectList( false, &( cat->objectIDSet ), w, mSelectionIndex );
+            drawObjectList( false, cat->isPattern,
+                            &( cat->objectIDSet ), w, mSelectionIndex );
             }
         else {
             mIsPatternCheckbox.setToggled( false );
