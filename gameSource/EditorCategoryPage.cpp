@@ -212,8 +212,7 @@ void EditorCategoryPage::actionPerformed( GUIComponent *inTarget ) {
 
 
 
-static void drawObjectList( char inCategories,
-                            char inPattern,
+static void drawObjectList( char inCategories, 
                             SimpleVector<int> *inList,
                             SimpleVector<float> *inWeights = NULL,
                             int inSelectionIndex = -1 ) {
@@ -332,6 +331,7 @@ static void drawObjectList( char inCategories,
             smallFont->drawString( "Prob", 
                                    textPos, alignRight );
             }
+<<<<<<< HEAD
         else if( inPattern ) {
             textPos.x -= 20;
 
@@ -342,6 +342,9 @@ static void drawObjectList( char inCategories,
             
             delete [] iString;
             }
+=======
+        
+>>>>>>> parent of ab444b1... Jason's patch for recurring items in pattern
         
         pos.y -= spacing;
         }
@@ -401,7 +404,7 @@ void EditorCategoryPage::draw( doublePair inViewCenter,
             cats.push_back( getCategoryForObject( mCurrentObject, i ) );
             }
     
-        drawObjectList( true, false, &cats, NULL, mSelectionIndex );
+        drawObjectList( true, &cats, NULL, mSelectionIndex );
         }
     else if( mCurrentCategory != -1 ) {
         CategoryRecord *cat = getCategory( mCurrentCategory );

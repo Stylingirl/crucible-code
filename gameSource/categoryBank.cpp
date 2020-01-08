@@ -579,14 +579,10 @@ void addCategoryToObject( int inObjectID, int inParentID ) {
     
     if( r != NULL ) {
 
-        if( ! r->isPattern ) {
-            // pattern categories can contain the same child more
-            // than once
-            for( int i=0; i< r->objectIDSet.size(); i++ ) {
-                if( r->objectIDSet.getElementDirect( i ) == inObjectID ) {
-                    // already there
-                    return;
-                    }
+        for( int i=0; i< r->objectIDSet.size(); i++ ) {
+            if( r->objectIDSet.getElementDirect( i ) == inObjectID ) {
+                // already there
+                return;
                 }
             }
 
