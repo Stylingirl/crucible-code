@@ -452,5 +452,8 @@ void setAnimationEmotion( Emotion *inEmotion );
 void setClothingHighlightFades( float *inFades );
 
 
+// toggles hiding of "Shadow" tagged sprites on drawn person objects
+void hidePersonShadows( char inHide );
+
 
 #endif

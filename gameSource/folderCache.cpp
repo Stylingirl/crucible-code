@@ -13,7 +13,9 @@
 
 
 FolderCache initFolderCache( const char *inFolderName, 
-                             char *outRebuildingCache ) {
+                             char *outRebuildingCache,
+                             char (*inInclusionTest)( char *inFileName ),
+                             char inForceRebuild ) {
     *outRebuildingCache = false;
     
     File *folderDir = new File( NULL, inFolderName );

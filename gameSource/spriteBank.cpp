@@ -24,6 +24,7 @@ static int mapSize;
 // maps IDs to records
 // sparse, so some entries are NULL
 static SpriteRecord **idMap;
+static char *spriteDrawnMap = NULL;
 
 
 static StringTree tree;
@@ -79,6 +80,17 @@ void enableSpriteSearch( char inEnable ) {
 
 
 
+// skip all non-txt files (only read meta data files on init, 
+// not bulk data tga files)
+static char shouldFileBeCached( char *inFileName ) {
+    if( strstr( inFileName, ".txt" ) != NULL &&
+        strcmp( inFileName, "nextSpriteNumber.txt" ) != 0 ) {
+        return true;
+        }
+    return false;
+    }
+
+
 
 int initSpriteBankStart( char *outRebuildingCache ) {
     maxID = 0;
@@ -87,9 +99,19 @@ int initSpriteBankStart( char *outRebuildingCache ) {
     currentBinFile = 0;
     
     char rebuildingA, rebuildingB;
-    cache = initFolderCache( "sprites", &rebuildingA );
+
 
     binCache = initBinFolderCache( "sprites", ".tga", &rebuildingB );
+
+    char forceRebuild = false;
+
+    if( rebuildingB ) {
+        forceRebuild = true;
+        }
+
+    cache = initFolderCache( "sprites", &rebuildingA, shouldFileBeCached,
+                             forceRebuild );
+
 
     *outRebuildingCache = rebuildingA || rebuildingB;
     
@@ -280,10 +302,7 @@ float initSpriteBankStep() {
 
         char *fileName = getFileName( cache, i );
     
-        // skip all non-txt files (only read meta data files on init, 
-        // not bulk data tga files)
-        if( strstr( fileName, ".txt" ) != NULL &&
-            strcmp( fileName, "nextSpriteNumber.txt" ) != 0 ) {
+        if( shouldFileBeCached( fileName ) ) {
                             
             //printf( "Loading sprite from path %s\n", fileName );
 
@@ -403,6 +422,9 @@ float initSpriteBankStep() {
                 idMap[i] = NULL;
                 }
             
+            spriteDrawnMap = new char[mapSize];
+            
+
             int numRecords = records.size();
             for( int i=0; i<numRecords; i++ ) {
                 SpriteRecord *r = records.getElementDirect(i);
@@ -448,13 +470,21 @@ float initSpriteBankStep() {
                                                            fileName, 
                                                            &contSize );
                 if( contents != NULL ) {
-                    loadSpriteFromRawTGAData( spriteID, contents, contSize );
                     
+                    // there might be tga file that we have no .txt file, 
+                    // and thus no record
+                    // Note that we still must read content for such a file,
+                    // because binCache must be read in order.
                     SpriteRecord *r = getSpriteRecord( spriteID );
                     
-                    r->numStepsUnused = 0;
-                    loadedSprites.push_back( spriteID );
-
+                    if( r != NULL ) {
+                        loadSpriteFromRawTGAData( 
+                            spriteID, contents, contSize );
+                    
+                        r->numStepsUnused = 0;
+                        loadedSprites.push_back( spriteID );
+                        }
+                    
                     delete [] contents;
                     }
                 }
@@ -758,6 +788,27 @@ void setRemapFraction( double inFraction ) {
 
 
 
+static char countingSpriteDraws = false;
+
+void startCountingUniqueSpriteDraws() {
+    memset( spriteDrawnMap, 0, mapSize );
+    countingSpriteDraws = true;
+    }
+
+
+unsigned int endCountingUniqueSpriteDraws() {
+    unsigned int c = 0;
+    for( int i=0; i<mapSize; i++ ) {
+        if( spriteDrawnMap[i] ) {
+            c ++;
+            }
+        }
+    countingSpriteDraws = false;
+    return c;
+    }
+
+
+
 SpriteHandle getSprite( int inID ) {
     if( inID >= mapSize || idMap[ inID ] == NULL ) {
         return NULL;
@@ -807,6 +858,10 @@ SpriteHandle getSprite( int inID ) {
     if( idMap[inID]->sprite == NULL ) {
         loadSpriteImage( inID );
         return blankSprite;
+        }
+    
+    if( countingSpriteDraws ) {
+        spriteDrawnMap[inID] = true;
         }
             
     idMap[inID]->numStepsUnused = 0;

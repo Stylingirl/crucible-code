@@ -213,6 +213,7 @@ void EditorCategoryPage::actionPerformed( GUIComponent *inTarget ) {
 
 
 static void drawObjectList( char inCategories, 
+                            char inPattern,
                             SimpleVector<int> *inList,
                             SimpleVector<float> *inWeights = NULL,
                             int inSelectionIndex = -1 ) {
@@ -399,7 +400,7 @@ void EditorCategoryPage::draw( doublePair inViewCenter,
             cats.push_back( getCategoryForObject( mCurrentObject, i ) );
             }
     
-        drawObjectList( true, &cats, NULL, mSelectionIndex );
+        drawObjectList( true, false, &cats, NULL, mSelectionIndex );
         }
     else if( mCurrentCategory != -1 ) {
         CategoryRecord *cat = getCategory( mCurrentCategory );

@@ -69,6 +69,14 @@ static char mouthFrameOutputStarted = false;
 
 
 
+static char shouldFileBeCached( char *inFileName ) {
+    if( strstr( inFileName, ".txt" ) != NULL ) {
+        return true;
+        }
+    return false;
+    }
+
+
 
 
 int initAnimationBankStart( char *outRebuildingCache ) {
@@ -156,7 +164,8 @@ int initAnimationBankStart( char *outRebuildingCache ) {
     currentFile = 0;
 
     
-    cache = initFolderCache( "animations", outRebuildingCache );
+    cache = initFolderCache( "animations", outRebuildingCache,
+                             shouldFileBeCached );
 
     return cache.numFiles;
     }
@@ -174,7 +183,7 @@ float initAnimationBankStep() {
 
     char *txtFileName = getFileName( cache, i );
                         
-    if( strstr( txtFileName, ".txt" ) != NULL ) {
+    if( shouldFileBeCached( txtFileName ) ) {
         
         // every .txt file is an animation file
 
@@ -1200,6 +1209,15 @@ void setClothingHighlightFades( float *inFades ) {
             }
         }
     }
+
+
+
+static char shouldHidePersonShadows = false;
+
+void hidePersonShadows( char inHide ) {
+    shouldHidePersonShadows = inHide;
+    }
+
 
 
 
@@ -2255,6 +2273,14 @@ HoldingPos drawObjectAnim( int inObjectID, int inDrawBehindSlots,
             // skip drawing this aging layer entirely
             continue;
             }
+        
+        
+        if( obj->person && shouldHidePersonShadows &&
+            strstr( getSpriteRecord( obj->sprites[i] )->tag, 
+                    "Shadow" ) != NULL ) {
+            continue;
+            }
+        
 
         
         doublePair spritePos = workingSpritePos[i];
