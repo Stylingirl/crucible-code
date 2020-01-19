@@ -342,6 +342,7 @@ static void drawObjectList( char inCategories,
             
             delete [] iString;
             }
+
         pos.y -= spacing;
         }
     }
