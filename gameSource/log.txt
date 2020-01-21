@@ -2007,3 +2007,629 @@ L4 | Sat Jan 18 22:52:46 2020 (797 ms) | general | exiting: calling SDL_Quit()
 
 L4 | Sat Jan 18 22:52:46 2020 (828 ms) | general | exiting: Done.
 
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | New game starting up
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | 30 fps
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | 60 fps
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | 100 fps
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | 120 fps
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | 144 fps
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general | Available video modes:
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    2560 x 1600
+
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1920 x 1440
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1920 x 1200
+
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1856 x 1392
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1792 x 1344
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1680 x 1050
+
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1600 x 1200
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1440 x 900
+
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1400 x 1050
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1360 x 768
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1280 x 1024
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1280 x 960
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1280 x 800
+
+L4 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1280 x 768
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1152 x 864
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    1024 x 768
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    800 x 600
+
+L5 | Sat Jan 18 23:09:29 2020 (771 ms) | general |    640 x 480
+
+L4 | Sat Jan 18 23:09:29 2020 (830 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jan 18 23:09:30 2020 (90 ms) | general | Recording game into file recordedGames/recordedGame000108.txt
+L4 | Sat Jan 18 23:09:30 2020 (90 ms) | general | Only keeping 20 past recordings
+L4 | Sat Jan 18 23:09:30 2020 (90 ms) | general | Removed 1 stale recordings
+L4 | Sat Jan 18 23:11:44 2020 (46 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:11:44 2020 (46 ms) | general | All resolutions available
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general | Available video modes:
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    2560 x 1600
+
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1920 x 1440
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1920 x 1200
+
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1856 x 1392
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1792 x 1344
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1680 x 1050
+
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1600 x 1200
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1440 x 900
+
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1400 x 1050
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1360 x 768
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1280 x 1024
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1280 x 960
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1280 x 800
+
+L4 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1280 x 768
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1152 x 864
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    1024 x 768
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    800 x 600
+
+L5 | Sat Jan 18 23:11:53 2020 (273 ms) | general |    640 x 480
+
+L4 | Sat Jan 18 23:44:01 2020 (627 ms) | general | exiting...
+
+L4 | Sat Jan 18 23:44:01 2020 (627 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jan 18 23:44:01 2020 (839 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jan 18 23:44:01 2020 (839 ms) | general | Freeing sound sprites
+
+L4 | Sat Jan 18 23:44:01 2020 (839 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jan 18 23:44:01 2020 (946 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jan 18 23:44:01 2020 (946 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jan 18 23:44:01 2020 (947 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jan 18 23:44:02 2020 (46 ms) | general | exiting: Done.
+
+L4 | Sat Jan 18 23:44:25 2020 (917 ms) | general | New game starting up
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Target game image size:  1280x720
+
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | 30 fps
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | 60 fps
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | 100 fps
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | 120 fps
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | 144 fps
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general | Available video modes:
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    2560 x 1600
+
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1920 x 1440
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1920 x 1200
+
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1856 x 1392
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1792 x 1344
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1680 x 1050
+
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1600 x 1200
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1440 x 900
+
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1400 x 1050
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1360 x 768
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1280 x 1024
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1280 x 960
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1280 x 800
+
+L4 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1280 x 768
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1152 x 864
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    1024 x 768
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    800 x 600
+
+L5 | Sat Jan 18 23:44:25 2020 (918 ms) | general |    640 x 480
+
+L4 | Sat Jan 18 23:44:26 2020 (7 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jan 18 23:44:26 2020 (263 ms) | general | Recording game into file recordedGames/recordedGame000109.txt
+L4 | Sat Jan 18 23:44:26 2020 (263 ms) | general | Only keeping 20 past recordings
+L4 | Sat Jan 18 23:44:26 2020 (264 ms) | general | Removed 1 stale recordings
+L4 | Sat Jan 18 23:44:26 2020 (310 ms) | general | OneLife client v219 (binV=219, dataV=0) starting up
+L4 | Sat Jan 18 23:44:44 2020 (478 ms) | general | exiting...
+
+L4 | Sat Jan 18 23:44:44 2020 (478 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jan 18 23:44:44 2020 (707 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jan 18 23:44:44 2020 (707 ms) | general | Freeing sound sprites
+
+L4 | Sat Jan 18 23:44:44 2020 (708 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jan 18 23:44:44 2020 (806 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jan 18 23:44:44 2020 (806 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jan 18 23:44:44 2020 (807 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jan 18 23:44:44 2020 (835 ms) | general | exiting: Done.
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | New game starting up
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | 30 fps
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | 60 fps
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | 100 fps
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | 120 fps
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | 144 fps
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general | Available video modes:
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    2560 x 1600
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1920 x 1440
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1920 x 1200
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1856 x 1392
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1792 x 1344
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1680 x 1050
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1600 x 1200
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1440 x 900
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1400 x 1050
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1360 x 768
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1280 x 1024
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1280 x 960
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1280 x 800
+
+L4 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1280 x 768
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1152 x 864
+
+L5 | Sat Jan 18 23:44:49 2020 (831 ms) | general |    1024 x 768
+
+L5 | Sat Jan 18 23:44:49 2020 (832 ms) | general |    800 x 600
+
+L5 | Sat Jan 18 23:44:49 2020 (832 ms) | general |    640 x 480
+
+L4 | Sat Jan 18 23:44:49 2020 (911 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jan 18 23:44:50 2020 (158 ms) | general | Recording game into file recordedGames/recordedGame000110.txt
+L4 | Sat Jan 18 23:44:50 2020 (158 ms) | general | Only keeping 20 past recordings
+L4 | Sat Jan 18 23:44:50 2020 (159 ms) | general | Removed 1 stale recordings
+L4 | Sat Jan 18 23:47:07 2020 (604 ms) | general | exiting...
+
+L4 | Sat Jan 18 23:47:07 2020 (604 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jan 18 23:47:07 2020 (814 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jan 18 23:47:07 2020 (814 ms) | general | Freeing sound sprites
+
+L4 | Sat Jan 18 23:47:07 2020 (814 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jan 18 23:47:07 2020 (909 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jan 18 23:47:07 2020 (910 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jan 18 23:47:07 2020 (910 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jan 18 23:47:07 2020 (947 ms) | general | exiting: Done.
+
+L4 | Sat Jan 18 23:47:17 2020 (75 ms) | general | New game starting up
+L4 | Sat Jan 18 23:47:17 2020 (75 ms) | general | Target game image size:  1280x720
+
+L4 | Sat Jan 18 23:47:17 2020 (75 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jan 18 23:47:17 2020 (75 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | 30 fps
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | 60 fps
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | 100 fps
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | 120 fps
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | 144 fps
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general | Available video modes:
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    2560 x 1600
+
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1920 x 1440
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1920 x 1200
+
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1856 x 1392
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1792 x 1344
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1680 x 1050
+
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1600 x 1200
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1440 x 900
+
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1400 x 1050
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1360 x 768
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1280 x 1024
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1280 x 960
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1280 x 800
+
+L4 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1280 x 768
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1152 x 864
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    1024 x 768
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    800 x 600
+
+L5 | Sat Jan 18 23:47:17 2020 (76 ms) | general |    640 x 480
+
+L4 | Sat Jan 18 23:47:17 2020 (139 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jan 18 23:47:17 2020 (382 ms) | general | Recording game into file recordedGames/recordedGame000111.txt
+L4 | Sat Jan 18 23:47:17 2020 (382 ms) | general | Only keeping 20 past recordings
+L4 | Sat Jan 18 23:47:17 2020 (383 ms) | general | Removed 1 stale recordings
+L4 | Sat Jan 18 23:47:17 2020 (433 ms) | general | OneLife client v219 (binV=219, dataV=0) starting up
+L4 | Sat Jan 18 23:48:57 2020 (857 ms) | general | exiting...
+
+L4 | Sat Jan 18 23:48:57 2020 (857 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jan 18 23:48:58 2020 (77 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jan 18 23:48:58 2020 (77 ms) | general | Freeing sound sprites
+
+L4 | Sat Jan 18 23:48:58 2020 (77 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jan 18 23:48:58 2020 (171 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jan 18 23:48:58 2020 (172 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jan 18 23:48:58 2020 (172 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jan 18 23:48:58 2020 (203 ms) | general | exiting: Done.
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | New game starting up
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | 30 fps
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | 60 fps
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | 100 fps
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | 120 fps
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | 144 fps
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general | Available video modes:
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    2560 x 1600
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1920 x 1440
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1920 x 1200
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1856 x 1392
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1792 x 1344
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1680 x 1050
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1600 x 1200
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1440 x 900
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1400 x 1050
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1360 x 768
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1280 x 1024
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1280 x 960
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1280 x 800
+
+L4 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1280 x 768
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1152 x 864
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    1024 x 768
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    800 x 600
+
+L5 | Sat Jan 18 23:49:04 2020 (176 ms) | general |    640 x 480
+
+L4 | Sat Jan 18 23:49:04 2020 (266 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jan 18 23:49:04 2020 (521 ms) | general | Recording game into file recordedGames/recordedGame000112.txt
+L4 | Sat Jan 18 23:49:04 2020 (521 ms) | general | Only keeping 20 past recordings
+L4 | Sat Jan 18 23:49:04 2020 (521 ms) | general | Removed 1 stale recordings
+L4 | Sat Jan 18 23:53:41 2020 (358 ms) | general | exiting...
+
+L4 | Sat Jan 18 23:53:41 2020 (358 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jan 18 23:53:41 2020 (577 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jan 18 23:53:41 2020 (577 ms) | general | Freeing sound sprites
+
+L4 | Sat Jan 18 23:53:41 2020 (578 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jan 18 23:53:41 2020 (675 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jan 18 23:53:41 2020 (675 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jan 18 23:53:41 2020 (676 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jan 18 23:53:41 2020 (687 ms) | general | exiting: Done.
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | New game starting up
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Target game image size:  1280x720
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | 30 fps
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | 60 fps
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | 100 fps
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | 120 fps
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | 144 fps
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general | Available video modes:
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    2560 x 1600
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1920 x 1440
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1920 x 1200
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1856 x 1392
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1792 x 1344
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1680 x 1050
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1600 x 1200
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1440 x 900
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1400 x 1050
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1360 x 768
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1280 x 1024
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1280 x 960
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1280 x 800
+
+L4 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1280 x 768
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1152 x 864
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    1024 x 768
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    800 x 600
+
+L5 | Sat Jan 18 23:53:49 2020 (216 ms) | general |    640 x 480
+
+L4 | Sat Jan 18 23:53:49 2020 (308 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jan 18 23:53:49 2020 (574 ms) | general | Recording game into file recordedGames/recordedGame000113.txt
+L4 | Sat Jan 18 23:53:49 2020 (574 ms) | general | Only keeping 20 past recordings
+L4 | Sat Jan 18 23:53:49 2020 (575 ms) | general | Removed 1 stale recordings
+L4 | Sat Jan 18 23:53:49 2020 (620 ms) | general | OneLife client v219 (binV=219, dataV=0) starting up
+L4 | Sun Jan 19 00:04:41 2020 (551 ms) | general | exiting...
+
+L4 | Sun Jan 19 00:04:41 2020 (551 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sun Jan 19 00:04:41 2020 (751 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sun Jan 19 00:04:41 2020 (751 ms) | general | Freeing sound sprites
+
+L4 | Sun Jan 19 00:04:41 2020 (752 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sun Jan 19 00:04:41 2020 (849 ms) | general | exiting: Deleting screen
+
+L4 | Sun Jan 19 00:04:41 2020 (850 ms) | general | exiting: freeing drawString
+
+L4 | Sun Jan 19 00:04:41 2020 (851 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sun Jan 19 00:04:41 2020 (869 ms) | general | exiting: Done.
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | New game starting up
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Target game image size:  1024x600
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Trying to start in fullscreen mode.
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | The following frame rates are considered possible:
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | 30 fps
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | 60 fps
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | 100 fps
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | 120 fps
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | 144 fps
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Current screen configuration is 1440x900 with aspect ratio 1.60
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Sticking with user's current screen resolution
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Checking if requested video mode (1440x900) is available
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general | Available video modes:
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    2560 x 1600
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1920 x 1440
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1920 x 1200
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1856 x 1392
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1792 x 1344
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1680 x 1050
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1600 x 1200
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1440 x 900
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1400 x 1050
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1360 x 768
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1280 x 1024
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1280 x 960
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1280 x 800
+
+L4 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    ^^^^ this mode matches current aspect ratio
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1280 x 768
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1152 x 864
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    1024 x 768
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    800 x 600
+
+L5 | Sun Jan 19 00:05:00 2020 (125 ms) | general |    640 x 480
+
+L4 | Sun Jan 19 00:05:00 2020 (191 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sun Jan 19 00:05:00 2020 (465 ms) | general | Recording game into file recordedGames/recordedGame000114.txt
+L4 | Sun Jan 19 00:05:00 2020 (465 ms) | general | Only keeping 20 past recordings
+L4 | Sun Jan 19 00:05:00 2020 (465 ms) | general | Removed 1 stale recordings
+L4 | Sun Jan 19 00:25:59 2020 (941 ms) | general | exiting...
+
+L4 | Sun Jan 19 00:25:59 2020 (941 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sun Jan 19 00:26:00 2020 (155 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sun Jan 19 00:26:00 2020 (155 ms) | general | Freeing sound sprites
+
+L4 | Sun Jan 19 00:26:00 2020 (156 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sun Jan 19 00:26:00 2020 (244 ms) | general | exiting: Deleting screen
+
+L4 | Sun Jan 19 00:26:00 2020 (244 ms) | general | exiting: freeing drawString
+
+L4 | Sun Jan 19 00:26:00 2020 (245 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sun Jan 19 00:26:00 2020 (259 ms) | general | exiting: Done.
+
