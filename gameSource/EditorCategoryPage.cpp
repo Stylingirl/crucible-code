@@ -213,6 +213,7 @@ void EditorCategoryPage::actionPerformed( GUIComponent *inTarget ) {
 
 
 static void drawObjectList( char inCategories, 
+                            char inPattern,
                             SimpleVector<int> *inList,
                             SimpleVector<float> *inWeights = NULL,
                             int inSelectionIndex = -1 ) {
@@ -331,8 +332,17 @@ static void drawObjectList( char inCategories,
             smallFont->drawString( "Prob", 
                                    textPos, alignRight );
             }
-        
-        
+        else if( inPattern ) {
+            textPos.x -= 20;
+
+            char *iString = autoSprintf( "%d", i );
+            
+            smallFont->drawString( iString, 
+                                   textPos, alignRight );
+            
+            delete [] iString;
+            }
+
         pos.y -= spacing;
         }
     }
@@ -391,7 +401,7 @@ void EditorCategoryPage::draw( doublePair inViewCenter,
             cats.push_back( getCategoryForObject( mCurrentObject, i ) );
             }
     
-        drawObjectList( true, &cats, NULL, mSelectionIndex );
+        drawObjectList( true, false, &cats, NULL, mSelectionIndex );
         }
     else if( mCurrentCategory != -1 ) {
         CategoryRecord *cat = getCategory( mCurrentCategory );
@@ -421,7 +431,8 @@ void EditorCategoryPage::draw( doublePair inViewCenter,
                 w = &( cat->objectWeights );
                 }
             
-            drawObjectList( false, &( cat->objectIDSet ), w, mSelectionIndex );
+            drawObjectList( false, cat->isPattern,
+                            &( cat->objectIDSet ), w, mSelectionIndex );
             }
         else {
             mIsPatternCheckbox.setToggled( false );

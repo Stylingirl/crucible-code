@@ -43,6 +43,14 @@ static int maxID;
 static int maxObjectID;
 
 
+static char shouldFileBeCached( char *inFileName ) {
+    if( strstr( inFileName, ".txt" ) != NULL ) {
+        return true;
+        }
+    return false;
+    }
+
+
 
 int initCategoryBankStart( char *outRebuildingCache ) {
     maxID = 0;
@@ -51,7 +59,8 @@ int initCategoryBankStart( char *outRebuildingCache ) {
     currentFile = 0;
     
 
-    cache = initFolderCache( "categories", outRebuildingCache );
+    cache = initFolderCache( "categories", outRebuildingCache,
+                             shouldFileBeCached );
 
     return cache.numFiles;
     }
@@ -70,7 +79,7 @@ float initCategoryBankStep() {
                 
     char *txtFileName = getFileName( cache, i );
             
-    if( strstr( txtFileName, ".txt" ) != NULL ) {
+    if( shouldFileBeCached( txtFileName ) ) {
                             
         // a category txt file!
                     
@@ -570,10 +579,14 @@ void addCategoryToObject( int inObjectID, int inParentID ) {
     
     if( r != NULL ) {
 
-        for( int i=0; i< r->objectIDSet.size(); i++ ) {
-            if( r->objectIDSet.getElementDirect( i ) == inObjectID ) {
-                // already there
-                return;
+        if( ! r->isPattern ) {
+            // pattern categories can contain the same child more
+            // than once
+            for( int i=0; i< r->objectIDSet.size(); i++ ) {
+                if( r->objectIDSet.getElementDirect( i ) == inObjectID ) {
+                    // already there
+                    return;
+                    }
                 }
             }
 
